@@ -34,10 +34,10 @@ class AuthController extends Controller
 
             if (admin()->attempt($data))
                 return response()->json(['url'=>route('admin.index'),'status'=>200],200);
-            if (teacher()->attempt($data))
-                return response()->json(['url'=>route('teacher.index'),'status'=>200],200);
-            if (moderator()->attempt($data))
-                return response()->json(['url'=>route('moderator.index'),'status'=>200],200);
+            // if (teacher()->attempt($data))
+            //     return response()->json(['url'=>route('teacher.index'),'status'=>200],200);
+            // if (moderator()->attempt($data))
+            //     return response()->json(['url'=>route('moderator.index'),'status'=>200],200);
 
 
         return response()->json(405);

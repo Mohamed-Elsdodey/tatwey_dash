@@ -11,18 +11,19 @@
     </style>
 @endsection
 @section('content')
-    <div class="card">
+    <div class="card AE_card">
         <div class="card-header d-flex align-items-center">
-            <h5 class="card-title mb-0 flex-grow-1">المشرف</h5>
+            <h5 class="card-title mb-0 flex-grow-1 AE_title">المشرف</h5>
 
 
                 <div>
-                    <button id="addBtn" class="btn btn-primary">اضافة مشرف</button>
+                    <button id="addBtn" class="btn btn-primary AE_button">اضافة مشرف</button>
                 </div>
 
 
         </div>
         <div class="card-body">
+        
             <table id="table" class="table table-bordered dt-responsive nowrap table-striped align-middle"
                    style="width:100%">
                 <thead>
@@ -93,6 +94,8 @@
 
 @endsection
 @section('js')
+
+    @include('Admin.layouts.inc.ajax',['url'=>'admins'])
     <script>
         var columns = [
             {data: 'id', name: 'id'},
@@ -105,19 +108,17 @@
             {data: 'action', name: 'action', orderable: false, searchable: false},
         ];
     </script>
-    @include('Admin.layouts.inc.ajax',['url'=>'admins'])
-
     <link href="{{url('assets/dashboard/css/select2.css')}}" rel="stylesheet"/>
     <script src="{{url('assets/dashboard/js/select2.js')}}"></script>
 
     <!--datatable js-->
 
-    {{--    <script src="{{url('assets')}}/dashboard/js/pages/datatables.init.js"></script>--}}
+    <!-- {{--    <script src="{{url('assets')}}/dashboard/js/pages/datatables.init.js"></script>--}}
     {{--    <script>--}}
     {{--        document.addEventListener("DOMContentLoaded", function () {--}}
     {{--            new DataTable("#buttons-datatables", {dom: "Bfrtip", buttons: ["copy", "csv", "excel", "print", "pdf"]})--}}
     {{--        })--}}
-    {{--    </script>--}}
+    {{--    </script>--}} -->
 
     <script>
         $(document).on('change', '.activeBtn', function () {
@@ -148,5 +149,7 @@
 
         })
     </script>
+
+  
 
 @endsection

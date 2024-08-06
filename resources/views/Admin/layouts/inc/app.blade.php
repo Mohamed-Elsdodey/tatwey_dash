@@ -29,7 +29,7 @@
                     <div class="container-fluid">
 
                         <!-- start page title -->
-                        <div class="page-title-box d-sm-flex align-items-center justify-content-between p-0 py-md-2">
+                        <!-- <div class="page-title-box d-sm-flex align-items-center justify-content-between p-0 py-md-2">
                             <h4 class="mb-sm-0">@yield('page-title') </h4>
 
                             {{--                            <div class="page-title-right">--}}
@@ -39,7 +39,21 @@
                             {{--                                </ol>--}}
                             {{--                            </div>--}}
 
-                        </div>
+                        </div> -->
+                        <!-- start AE_breadcrumb -->
+                         <div class="AE_breadcrumb">
+                            <h4>لوحة التحكم</h4>
+                            
+                            <ul>
+                                <li class="AE_defaultPage"> 
+                                    <a href="#!">الصفحة الرئيسية</a>
+                                </li>
+                                <li class="AE_separator"  ><i class="fa-solid fa-angle-left"></i></li>
+                                
+                                <li class="AE_changePage">لوحة التحكم</li>
+                            </ul>
+                         </div>
+                        <!-- end AE_breadcrumb -->
                         <!-- end page title -->
                         @yield('content')
                     </div>

@@ -50,8 +50,9 @@
     });
 </script>
 
+<!-- AE file js -->
 
-
+    <script src="{{url('assets')}}/AE_style/AE_script.js"></script>
 
 
 

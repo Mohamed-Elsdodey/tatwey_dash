@@ -6,13 +6,13 @@
 
 @endsection
 @section('content')
-    <div class="card">
+    <div class="card AE_card">
         <div class="card-header d-flex align-items-center">
-            <h5 class="card-title mb-0 flex-grow-1"> المواد الدراسية</h5>
+            <h5 class="card-title mb-0 flex-grow-1  AE_title"> المواد الدراسية</h5>
 
 
                 <div>
-                    <button id="addBtn" class="btn btn-primary">اضافة  مادة دراسية</button>
+                    <button id="addBtn" class="btn btn-primary AE_button">اضافة  مادة دراسية</button>
                 </div>
 
 
@@ -32,8 +32,9 @@
                 </thead>
             </table>
         </div>
+        
     </div>
-
+  
     <div class="modal fade" id="Modal" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog modal-dialog-centered modal-lg mw-650px">

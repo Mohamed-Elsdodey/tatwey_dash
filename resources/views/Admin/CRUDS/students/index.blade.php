@@ -6,7 +6,7 @@
 
 @endsection
 @section('content')
-    <div class="card">
+    <div class="card AE_card">  
         <div class="card-header d-flex align-items-center">
             <h5 class="card-title mb-0 flex-grow-1">طلاب
                 {{$room->title_ar}}

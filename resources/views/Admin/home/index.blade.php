@@ -8,90 +8,187 @@
 @endsection
 @section('content')
     <div class="row">
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-primary p-2 mb-0">
-                    المشرفين </p>
-                <h2 class="py-4 mb-0 text-primary"><span class="counter-value" data-target="{{$admins}}">0</span>
-                </h2>
-            </a>
-        </div><!-- end col -->
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-warning p-2 mb-0">
-                    المواد الدراسية </p>
-                <h2 class="py-4 mb-0 text-warning"><span class="counter-value" data-target="{{$categories}}">0</span>
-                </h2>
-            </a>
-        </div><!-- end col -->
 
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-dark p-2 mb-0">
-                    الصفوف الدراسية </p>
-                <h2 class="py-4 mb-0 text-info"><span class="counter-value"
-                                                      data-target="{{$rows}}">0</span>
-                    <span class="fs-5 text-muted">  </span>
-                </h2>
-            </a>
-        </div><!-- end col -->
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-danger p-2 mb-0">
-                    المدرسين </p>
-                <h2 class="py-4 mb-0 text-danger"><span class="counter-value"
-                                                        data-target="{{$teachers}}">0</span>
-                    <span class="fs-5 text-muted">  </span>
-                </h2>
-            </a>
-        </div><!-- end col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
+
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">المشرفين</p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$admins}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightGreen">
+                    <i class="fa-solid fa-user-tie AE_text-green"></i>
+                    </div>
+                  <!--  -->
+                  <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
+
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">المواد الدراسية </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$categories}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightBlue">
+                        <i class="fa-solid fa-book AE_text-blue"></i>
+                    </div>
+                  <!--  -->
+                  <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
+
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle"> الصفوف الدراسية  </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$rows}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightYellow">
+
+                        <i class="fa-solid fa-chalkboard-user AE_text-yellow"></i>
+                    </div>
+                  <!--  -->
+                  <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
+
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">  المدرسين  </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$teachers}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightMagenta">
+
+                        <i class="fa-solid fa-users AE_text-magenta"></i>
+                    </div>
+                  <!--  -->
+                  <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
+
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">  الفصول  </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$rooms}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightCaen">
+
+                        <i class="fa-solid fa-school-flag  AE_text-caen"></i>
+
+                    </div>
+                  <!--  -->
+                  <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
+
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">  الطلاب  </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$students}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightPink">
 
 
+                        <i class="fa-solid fa-children AE_text-pink"></i>
 
+                    </div>
+                  <!--  -->
+                    <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
 
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-info p-2 mb-0">
-                    الفصول </p>
-                <h2 class="py-4 mb-0 text-primary"><span class="counter-value" data-target="{{$rooms}}">0</span>
-                </h2>
-            </a>
-        </div><!-- end col -->
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-danger p-2 mb-0">
-                    الطلاب    </p>
-                <h2 class="py-4 mb-0 text-warning"><span class="counter-value" data-target="{{$students}}">0</span>
-                </h2>
-            </a>
-        </div><!-- end col -->
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">  العقوبات  </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$negative}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightRed">
+                        <i class="fa-solid fa-triangle-exclamation AE_text-red"></i>
+                    </div>
+                  <!--  -->
+                    <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
+    <!-- start AE col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="AE_box">
 
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a  href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-secondary p-2 mb-0">
-                     العقوبات  </p>
-                <h2 class="py-4 mb-0 text-info"><span class="counter-value"
-                                                      data-target="{{$negative}}">0</span>
-                    <span class="fs-5 text-muted">  </span>
-                </h2>
-            </a>
-        </div><!-- end col -->
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-            <a href="#" class="text-center bg-white d-block  rounded-3 mb-3">
-                <p class="text-uppercase fw-bold text-white text-truncate rounded-3 bg-success p-2 mb-0">
-                    التميز  </p>
-                <h2 class="py-4 mb-0 text-danger"><span class="counter-value"
-                                                        data-target="{{$positive}}">0</span>
-                    <span class="fs-5 text-muted">  </span>
-                </h2>
-            </a >
-        </div><!-- end col -->
+                 <!-- inner text -->
+                  <div class="AE_innerText">
+                    <p class="AE_subTitle">  التميز  </p>
+                    <h3 class="AE_mainTitle">
+                        <span class="counter-value" data-target="{{$positive}}">0</span>
+                    </h3>
+                  </div>
+                  <!-- icon box -->
+                  <div class="AE_icon AE_bg-lightGreen">
 
+                        <i class="fa-solid fa-thumbs-up AE_text-green"></i>
+                    </div>
+                  <!--  -->
+                    <a href="#!" class="AE_link"></a>
+            </div>
+            <!--  -->
+        </div>
+    <!-- end AE col -->
 
-
-        <div class="d-flex flex-column mb-7 fv-row col-sm-12 m-7">
+        <div class="d-flex flex-column mb-7 fv-row col-sm-12 m-7 AE_selectBox">
             <!--begin::Label-->
-            <label for="student_id" class="d-flex align-items-center fs-6 fw-bold form-label mb-2 ">
+            <label for="student_id" class="d-flex align-items-center  mb-2 ">
                 <span class="required mr-1">   الطلاب</span>
             </label>
             <select id='student_id' name="student_id[]" style='width: 200px;'>
@@ -108,7 +205,13 @@
         </div>
 
 
-    </div><!-- end row -->
+    </div>
+    <!-- end row -->
+     <!-- AE new  section  -->
+     <section class="AE_newSection" style="background:red;">
+        
+        </section>
+  <!--end  AE new  section  -->
 
 @endsection
 
@@ -116,6 +219,27 @@
 @section('js')
 
     <link href="{{url('assets/dashboard/css/select2.css')}}" rel="stylesheet"/>
+    <!-- start style select by AhmedEltatawy -->
+    <style>
+        .select2-container .select2-selection--single {
+            height:48px !important;
+            box-shadow: 0px 10px 20px 0px rgba(229, 229, 229, 0.75);
+        }
+        .select2-container--default .select2-selection--single , .select2-container .select2-selection--single{
+
+            border-color: #e5e5e6;
+        }
+        .select2-container--default .select2-selection--single:focus{
+            border-color: #3f7afc ;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            line-height:45px !important;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            display:none;
+        }
+    </style>
+    <!-- end style select by AhmedEltatawy -->
     <script src="{{url('assets/dashboard/js/select2.js')}}"></script>
 
     <script>

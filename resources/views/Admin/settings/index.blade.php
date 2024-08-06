@@ -17,9 +17,9 @@
 
 @section('content')
 
-    <div class="card">
+    <div class="card AE_card">
         <div class="card-header ">
-            <h5 class="card-title mb-0 flex-grow-1">الاعدادات العامة </h5>
+            <h5 class="card-title mb-0 flex-grow-1  AE_title">الاعدادات العامة </h5>
 
 
             <form id="form" enctype="multipart/form-data" method="POST" action="{{route('settings.store')}}">
@@ -30,7 +30,7 @@
 
 
                     <div class="d-flex flex-column mb-7 fv-row col-sm-6">
-                        <label for="logo_header" class="form-control-label fs-6 fw-bold "> اللوجو </label>
+                        <label for="logo_header" class="form-control-label AE_label"> اللوجو </label>
                         <input type="file" class="dropify" name="logo_header"
                                data-default-file="{{get_file($settings->logo_header)}}"
                                accept="image/*"/>
@@ -39,7 +39,7 @@
 
 
                     <div class="d-flex flex-column mb-7 fv-row col-sm-6">
-                        <label for="fave_icon" class="form-control-label fs-6 fw-bold "> الفيف ايكون  </label>
+                        <label for="fave_icon" class="form-control-label AE_label"> الفيف ايكون  </label>
                         <input type="file" id="fave_icon" class="dropify" name="fave_icon"
                                data-default-file="{{get_file($settings->fave_icon)}}"
                                accept="image/*"/>
@@ -48,38 +48,38 @@
 
                     <div class="d-flex flex-column mb-7 fv-row col-sm-4">
                         <!--begin::Label-->
-                        <label for="app_name" class="d-flex align-items-center fs-6 fw-bold form-label mb-2">
+                        <label for="app_name" class="d-flex align-items-center AE_label form-label mb-2">
                             <span class="required mr-1"> اسم الموقع</span>
                         </label>
                         <!--end::Label-->
-                        <input id="app_name" type="text" class="form-control form-control-solid" name="app_name"
-                               value="{{$settings->app_name}}"/>
+                        <input id="app_name" type="text" class="form-control form-control-solid AE_input" name="app_name"
+                               value="{{$settings->app_name}}"  />
                     </div>
 
 
                     <div class="d-flex flex-column mb-7 fv-row col-sm-4">
                         <!--begin::Label-->
-                        <label for="minimum_student_balance" class="d-flex align-items-center fs-6 fw-bold form-label mb-2">
+                        <label for="minimum_student_balance" class="d-flex align-items-center AE_label form-label mb-2">
                             <span class="required mr-1"> الحد الأدنى لرصيد الطالب  </span>
                         </label>
                         <!--end::Label-->
-                        <input id="minimum_student_balance" type="number" class="form-control form-control-solid" name="minimum_student_balance"
+                        <input id="minimum_student_balance" type="number" class="form-control form-control-solid AE_input" name="minimum_student_balance"
                                value="{{$settings->minimum_student_balance}}"/>
                     </div>
 
                     <div class="d-flex flex-column mb-7 fv-row col-sm-4">
                         <!--begin::Label-->
-                        <label for="ranking_punishment" class="d-flex align-items-center fs-6 fw-bold form-label mb-2">
+                        <label for="ranking_punishment" class="d-flex align-items-center AE_label form-label mb-2">
                             <span class="required mr-1"> عقوبة الترتيب    </span>
                         </label>
                         <!--end::Label-->
-                        <input id="ranking_punishment" type="number" class="form-control form-control-solid" name="ranking_punishment"
+                        <input id="ranking_punishment" type="number" class="form-control form-control-solid AE_input" name="ranking_punishment"
                                value="{{$settings->ranking_punishment}}" step="any"/>
                     </div>
 
 
-                    <div class="my-4">
-                        <button type="submit" class="btn btn-success"> تعديل</button>
+                    <div class=" AE_centerButton">
+                        <button type="submit" class="btn btn-primary  AE_button"> تعديل</button>
                     </div>
 
 
