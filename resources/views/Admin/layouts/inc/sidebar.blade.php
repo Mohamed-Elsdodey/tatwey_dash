@@ -35,7 +35,7 @@
             <ul class="navbar-nav" id="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="{{route('admin.index')}}">
+                    <a class="nav-link menu-link active" href="{{route('admin.index')}}">
                         <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">لوحة التحكم</span>
                     </a>
                 </li> <!-- end Dashboard Menu -->
@@ -84,7 +84,7 @@
                         <i class="fa-solid fa-angle-left  AE_DropDownArrow"></i>   
                     </a>
                         <ul class="AE_dropdown-menu " aria-labelledby="AE_dropdownMenuButton">    
-                            <li><a class="AE_dropdown-item" href="#">اضافة</a></li>
+                            <li><a class="AE_dropdown-item active" href="#">اضافة</a></li>
                             <li><a class="AE_dropdown-item" href="#"> الاعدادات </a></li>
                             <li><a class="AE_dropdown-item" href="#"> اضافة طالب  </a></li>
                         </ul>

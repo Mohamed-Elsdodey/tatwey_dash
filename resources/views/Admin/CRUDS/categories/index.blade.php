@@ -32,9 +32,11 @@
                 </thead>
             </table>
         </div>
+      
         
+
     </div>
-  
+
     <div class="modal fade" id="Modal" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog modal-dialog-centered modal-lg mw-650px">

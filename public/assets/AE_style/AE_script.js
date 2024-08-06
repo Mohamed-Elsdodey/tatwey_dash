@@ -5,3 +5,9 @@ $(document).ready(function() {
         $(this).find('.AE_DropDownArrow').toggleClass('active')
     });
 });
+
+// button header
+let AE_header_button = document.getElementById("AE_header_button");
+AE_header_button.addEventListener("click", ()=>{
+    document.querySelector(".AE_FastLink").classList.toggle("active")
+})
