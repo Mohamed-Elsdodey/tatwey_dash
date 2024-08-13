@@ -73,7 +73,13 @@
                     <a class="nav-link menu-link" href="{{route('settings.index')}}">
                         <i class="fas fa-chalkboard-teacher"></i> <span data-key="t-dashboards"> الاعدادات</span>
                     </a>
-                </li> 
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{route('questions.index')}}">
+                        <i class="fas fa-info"></i> <span data-key="t-dashboards"> التقييمات </span>
+                    </a>
+                </li>
                 <!-- end Dashboard Menu -->
                  <!-- start AE dropdown -->
                   <!-- 1 -->
@@ -81,14 +87,14 @@
                     <div class="AE_dropdown">
                     <a class="nav-link menu-link AE_dropdown-toggle" href="#!" id="AE_dropdownMenuButton">
                         <i class="fa fa-school"></i> <span data-key="t-dashboards">الصفوف الدراسية</span>
-                        <i class="fa-solid fa-angle-left  AE_DropDownArrow"></i>   
+                        <i class="fa-solid fa-angle-left  AE_DropDownArrow"></i>
                     </a>
-                        <ul class="AE_dropdown-menu " aria-labelledby="AE_dropdownMenuButton">    
+                        <ul class="AE_dropdown-menu " aria-labelledby="AE_dropdownMenuButton">
                             <li><a class="AE_dropdown-item active" href="#">اضافة</a></li>
                             <li><a class="AE_dropdown-item" href="#"> الاعدادات </a></li>
                             <li><a class="AE_dropdown-item" href="#"> اضافة طالب  </a></li>
                         </ul>
-                        
+
                     </div>
                 </li>
                 <!-- 2 -->
@@ -96,14 +102,14 @@
                     <div class="AE_dropdown">
                     <a class="nav-link menu-link AE_dropdown-toggle" href="#!" id="AE_dropdownMenuButton2">
                         <i class="fa fa-school"></i> <span data-key="t-dashboards">الصفوف الدراسية</span>
-                        <i class="fa-solid fa-angle-left  AE_DropDownArrow"></i>   
+                        <i class="fa-solid fa-angle-left  AE_DropDownArrow"></i>
                     </a>
-                        <ul class="AE_dropdown-menu " aria-labelledby="AE_dropdownMenuButton2">    
+                        <ul class="AE_dropdown-menu " aria-labelledby="AE_dropdownMenuButton2">
                             <li><a class="AE_dropdown-item" href="#">Action</a></li>
                             <li><a class="AE_dropdown-item" href="#">Another action</a></li>
                             <li><a class="AE_dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                        
+
                     </div>
                 </li>
             <!-- end  AE dropdown -->
