@@ -41,14 +41,14 @@
                              <!-- AE header  -->
                              <nav class="navbar navbar-expand-lg AE_FastLink">
                                 <div class="container-fluid">
-                                    
+
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                        
+
                                         <i class="fa-solid fa-bars" id="AE_header_button"></i>
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                            
+
                                                 <li class="nav-item">
                                                     <a class="nav-link active" href="#">
                                                         <!-- <i class="fa-solid fa-desktop"></i> -->
@@ -85,9 +85,9 @@
                                                         التقارير
                                                     </a>
                                                 </li>
-                                                
+
                                             </ul>
-                                    
+
                                     </div>
                                 </div>
                             </nav>
@@ -189,7 +189,7 @@
                                 aria-haspopup="true" aria-expanded="false">
                         <span class="d-flex align-items-center">
                             <img class="rounded-circle header-profile-user"
-                                 src="{{get_file(auth()->guard('admin')->user()->image)}}"
+                                 src="{{get_user_file(auth()->guard('admin')->user()->image)}}"
                                  alt="">
                             <span class="text-start ms-xl-2">
                                 <span

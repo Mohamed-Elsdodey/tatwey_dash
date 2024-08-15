@@ -54,6 +54,20 @@ if (!function_exists('get_file')) {
         return $file_path;
     }//end
 }
+if (!function_exists('get_user_file')) {
+    function get_user_file($file=null)
+    {
+        // Storage::exists( $file )
+        if (filter_var($file, FILTER_VALIDATE_URL)) {
+            $file_path = $file;
+        } elseif ($file) {
+            $file_path = asset('storage/uploads') . '/' . $file;
+        } else {
+            $file_path = asset('assets/AE_style/images/default-arab.png');
+        }
+        return $file_path;
+    }//end
+}
 
 
 
