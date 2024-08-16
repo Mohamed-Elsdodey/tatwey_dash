@@ -170,6 +170,16 @@ Route::group(
         Route::post('/store-token', [\App\Http\Controllers\WebNotificationController::class, 'storeToken'])->name('store.token');
         Route::post('/send-web-notification', [\App\Http\Controllers\WebNotificationController::class, 'sendWebNotification'])->name('send.web-notification');
 
+
+
+        ############################ Ahmed Tarek ########################################################
+        Route::resource('questions', \App\Http\Controllers\Admin\QuestionController::class);
+
+
+
+
+
+
     });
 
 });

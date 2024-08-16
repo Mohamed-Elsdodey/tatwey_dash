@@ -39,6 +39,7 @@
 
 @endif
 
+
 <!-- custom Css-->
 <link href="{{url('assets')}}/dashboard/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
 
@@ -105,7 +106,8 @@
          color: red;
      }
 </style>
-
+<!-- my style -->
+<link href="{{url('assets')}}/AE_style/AE_style.css" rel="stylesheet" type="text/css" />
 @yield('css')
 {{--include loader css--}}
 @include('layouts.loader.loaderCss')

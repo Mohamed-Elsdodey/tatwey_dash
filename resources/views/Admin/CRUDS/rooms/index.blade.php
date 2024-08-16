@@ -6,9 +6,9 @@
 
 @endsection
 @section('content')
-    <div class="card">
+    <div class="card AE_card">
         <div class="card-header d-flex align-items-center">
-            <h5 class="card-title mb-0 flex-grow-1"> الفصول للصف:
+            <h5 class="card-title mb-0 flex-grow-1  AE_title"> الفصول للصف:
 
                 {{$row->title_ar}}
             </h5>
@@ -17,7 +17,7 @@
 
 
                 <div>
-                    <button id="addBtn-p" data-id="{{$row->id}}" class="btn btn-primary">اضافة  فصل</button>
+                    <button id="addBtn-p" data-id="{{$row->id}}" class="btn btn-primary AE_button">اضافة  فصل</button>
                 </div>
 
 

@@ -6,13 +6,13 @@
 
 @endsection
 @section('content')
-    <div class="card">
+    <div class="card AE_card">
         <div class="card-header d-flex align-items-center">
-            <h5 class="card-title mb-0 flex-grow-1">الصفوف الدراسية</h5>
+            <h5 class="card-title mb-0 flex-grow-1  AE_title">الصفوف الدراسية</h5>
 
 
                 <div>
-                    <button id="addBtn" class="btn btn-primary">اضافة صف دراسي</button>
+                    <button id="addBtn" class="btn btn-primary AE_button">اضافة صف دراسي</button>
                 </div>
 
 
