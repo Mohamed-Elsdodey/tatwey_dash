@@ -26,7 +26,7 @@
         vertical-align: middle;
     }
 
-    .opacity{
+    .opacity {
         opacity: 0.3;
     }
 
@@ -101,7 +101,7 @@
     }
 
     .collapse-button {
-        background-color: #84C785;
+        background-color: #b3b3b3;
         color: white;
         padding: 12px;
         border: none;
@@ -115,7 +115,7 @@
     }
 
     .collapse-button:hover {
-        background-color: #6dc06e;
+        background-color: #8a8a8a;
     }
 
     .collapse-content {
@@ -184,4 +184,51 @@
         color: #333;
         font-weight: bold;
     }
+
+    .form-step h3 {
+        padding: 10px;
+    }
+
+    .select2-selection {
+        height: 50px !important;
+    }
+
+    .select2-container--default .select2-selection--single {
+        border: 1px solid #e0e0e0 !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-top: 10px !important;
+        padding-right: 20px !important;
+    }
+
+    .select2-container--default .select2-results__option--highlighted[aria-selected] {
+        background-color: #84C785 !important;
+    }
+
+    .category-name {
+        color: #84C785;
+        font-weight: bolder;
+    }
+
+    .category-heading {
+        font-size: 22px;
+        color: #ffffff;
+        background: linear-gradient(90deg, #84C785, #5fc060);
+        padding: 10px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px #84C785;
+        text-align: center;
+        margin-bottom: 2px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+
+
+    .category-heading:hover {
+        box-shadow: 0 4px 10px rgba(132, 199, 133, 0.32);
+        transform: translateY(-1px);
+        transition: all 0.4s ease;
+    }
+
 </style>
