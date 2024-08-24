@@ -74,107 +74,107 @@
         <br>
         <div class="card-body d-none" id="reportSection">
             <div class="row">
-                <div class="col-xxl-2">
+{{--                <div class="col-xxl-2">--}}
 
-                    <div class="card mt-n5">
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <div class="profile-user d-inline-block mx-auto  mb-4">
-                                    <img
-                                        src="https://static3.tgstat.ru/channels/_0/19/1944c3aa6556cb2e1bf4d0662858b685.jpg"
-                                        class="rounded-circle avatar-xl img-thumbnail user-profile-image"
-                                        alt="user-profile-image">
-                                </div>
-                                <h5 class="fs-16 mb-1">استاذ رضا الفاروق</h5>
-                                <p class="text-muted mb-0">مدرس اول لغة عربية</p>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="card mt-n5">--}}
+{{--                        <div class="card-body p-4">--}}
+{{--                            <div class="text-center">--}}
+{{--                                <div class="profile-user d-inline-block mx-auto  mb-4">--}}
+{{--                                    <img--}}
+{{--                                        src="https://static3.tgstat.ru/channels/_0/19/1944c3aa6556cb2e1bf4d0662858b685.jpg"--}}
+{{--                                        class="rounded-circle avatar-xl img-thumbnail user-profile-image"--}}
+{{--                                        alt="user-profile-image">--}}
+{{--                                </div>--}}
+{{--                                <h5 class="fs-16 mb-1">استاذ رضا الفاروق</h5>--}}
+{{--                                <p class="text-muted mb-0">مدرس اول لغة عربية</p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <!--end card-->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-15">
-                                <div class="flex-grow-1">
-                                    <h5 class="card-title mb-0">النسية المئوية للمدرسة</h5>
-                                </div>
-                            </div>
-                            <div class="progress animated-progress custom-progress progress-label">
-                                {{--                                كلاس اللي اسمه success ده بيتغير يا سدودو حسب النسبة بتاعته--}}
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 85.3%"
-                                     aria-valuenow="85.3" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="label">85.3%</div>
-                                </div>
-                            </div>
+{{--                    <!--end card-->--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-body">--}}
+{{--                            <div class="d-flex align-items-center mb-15">--}}
+{{--                                <div class="flex-grow-1">--}}
+{{--                                    <h5 class="card-title mb-0">النسية المئوية للمدرسة</h5>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="progress animated-progress custom-progress progress-label">--}}
+{{--                                --}}{{--                                كلاس اللي اسمه success ده بيتغير يا سدودو حسب النسبة بتاعته--}}
+{{--                                <div class="progress-bar bg-success" role="progressbar" style="width: 85.3%"--}}
+{{--                                     aria-valuenow="85.3" aria-valuemin="0" aria-valuemax="100">--}}
+{{--                                    <div class="label">85.3%</div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                            <div class="d-flex align-items-center mb-15 mt-4">
-                                <div class="flex-grow-1">
-                                    <h5 class="card-title mb-0">النسية المئوية للمادة</h5>
-                                </div>
-                            </div>
-                            <div class="progress animated-progress custom-progress progress-label">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%"
-                                     aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="label">70%</div>
-                                </div>
-                            </div>
+{{--                            <div class="d-flex align-items-center mb-15 mt-4">--}}
+{{--                                <div class="flex-grow-1">--}}
+{{--                                    <h5 class="card-title mb-0">النسية المئوية للمادة</h5>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="progress animated-progress custom-progress progress-label">--}}
+{{--                                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%"--}}
+{{--                                     aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">--}}
+{{--                                    <div class="label">70%</div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
 
-                            <div class="d-flex align-items-center mb-15 mt-4">
-                                <div class="flex-grow-1">
-                                    <h5 class="card-title mb-0">النسية المئوية للمعلم</h5>
-                                </div>
-                            </div>
-                            <div class="progress animated-progress custom-progress progress-label">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 52.9%"
-                                     aria-valuenow="52.9" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="label">52.9%</div>
-                                </div>
-                            </div>
+{{--                            <div class="d-flex align-items-center mb-15 mt-4">--}}
+{{--                                <div class="flex-grow-1">--}}
+{{--                                    <h5 class="card-title mb-0">النسية المئوية للمعلم</h5>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="progress animated-progress custom-progress progress-label">--}}
+{{--                                <div class="progress-bar bg-danger" role="progressbar" style="width: 52.9%"--}}
+{{--                                     aria-valuenow="52.9" aria-valuemin="0" aria-valuemax="100">--}}
+{{--                                    <div class="label">52.9%</div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                            <div class="row g-0 text-center mt-4">
-                                <div class="col-12">
-                                    <div class="p-3 border border-dashed border-start-0">
-                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="344">0</span>
-                                        </h5>
-                                        <p class="text-muted mb-0 fs-5">عدد الزيارات للمدرسة</p>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                                <div class="col-12">
-                                    <div class="p-3 border border-dashed border-start-0">
-                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="42">0</span></h5>
-                                        <p class="text-muted mb-0 fs-5">عدد الزيارات للمادة</p>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                                <div class="col-12">
-                                    <div class="p-3 border border-dashed border-start-0 border-end-0">
-                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="20">0</span></h5>
-                                        <p class="text-muted mb-0 fs-5">عدد الزيارات للمعلم</p>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                                <div class="col-6">
-                                    <div class="p-3 border border-dashed border-start-0 border-end-0">
-                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="6">0</span></h5>
-                                        <p class="text-muted mb-0 fs-5">ترتيب المعلم</p>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                                <div class="col-6">
-                                    <div class="p-3 border border-dashed border-start-1 border-end-0">
-                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="4">0</span></h5>
-                                        <p class="text-muted mb-0 fs-5">ترتيب المادة</p>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                            <div class="row g-0 text-center mt-4">--}}
+{{--                                <div class="col-12">--}}
+{{--                                    <div class="p-3 border border-dashed border-start-0">--}}
+{{--                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="344">0</span>--}}
+{{--                                        </h5>--}}
+{{--                                        <p class="text-muted mb-0 fs-5">عدد التقييمات للمدرسة</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!--end col-->--}}
+{{--                                <div class="col-12">--}}
+{{--                                    <div class="p-3 border border-dashed border-start-0">--}}
+{{--                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="42">0</span></h5>--}}
+{{--                                        <p class="text-muted mb-0 fs-5">عدد التقييمات للمادة</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!--end col-->--}}
+{{--                                <div class="col-12">--}}
+{{--                                    <div class="p-3 border border-dashed border-start-0 border-end-0">--}}
+{{--                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="20">0</span></h5>--}}
+{{--                                        <p class="text-muted mb-0 fs-5">عدد التقييمات للمعلم</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!--end col-->--}}
+{{--                                <div class="col-6">--}}
+{{--                                    <div class="p-3 border border-dashed border-start-0 border-end-0">--}}
+{{--                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="6">0</span></h5>--}}
+{{--                                        <p class="text-muted mb-0 fs-5">ترتيب المعلم</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!--end col-->--}}
+{{--                                <div class="col-6">--}}
+{{--                                    <div class="p-3 border border-dashed border-start-1 border-end-0">--}}
+{{--                                        <h5 class="mb-1"><span class="counter-value fs-4" data-target="4">0</span></h5>--}}
+{{--                                        <p class="text-muted mb-0 fs-5">ترتيب المادة</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!--end col-->--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <!--end col-->
-                <div class="col-xxl-10">
+                <div class="col-xxl-12">
                     <div class="card mt-xxl-n5">
                         <div class="card-header">
                             <ul class="nav nav-tabs-custom rounded card-header-tabs border-bottom-0" role="tablist">
@@ -182,6 +182,12 @@
                                     <a class="nav-link active" data-bs-toggle="tab" href="#personalDetails" role="tab"
                                        aria-selected="true">
                                         <i class="fas fa-home icon-header"></i> لمحة عامة
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#categories_rates" role="tab"
+                                       aria-selected="true">
+                                        <i class="fa fa-star icon-header"></i> تقييمات المعايير
                                     </a>
                                 </li>
                                 <li class="nav-item" role="presentation">
@@ -199,9 +205,108 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="card-body p-2">
+                        <div class="card-body p-2" style="margin-top: 50px">
                             <div class="tab-content">
                                 <div class="tab-pane active" id="personalDetails" role="tabpanel">
+
+                                        <div class="card mt-n5">
+                                            <div class="card-body p-4">
+                                                <div class="text-center">
+                                                    <div class="profile-user d-inline-block mx-auto  mb-4">
+                                                        <img
+                                                            src="https://static3.tgstat.ru/channels/_0/19/1944c3aa6556cb2e1bf4d0662858b685.jpg"
+                                                            class="rounded-circle avatar-xl img-thumbnail user-profile-image"
+                                                            alt="user-profile-image">
+                                                    </div>
+                                                    <h5 class="fs-16 mb-1">استاذ رضا الفاروق</h5>
+                                                    <p class="text-muted mb-0">مدرس اول لغة عربية</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--end card-->
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex align-items-center mb-15">
+                                                    <div class="flex-grow-1">
+                                                        <h5 class="card-title mb-0">النسية المئوية للمدرسة</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="progress animated-progress custom-progress progress-label">
+                                                    {{--                                كلاس اللي اسمه success ده بيتغير يا سدودو حسب النسبة بتاعته--}}
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 85.3%"
+                                                         aria-valuenow="85.3" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="label">85.3%</div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex align-items-center mb-15 mt-4">
+                                                    <div class="flex-grow-1">
+                                                        <h5 class="card-title mb-0">النسية المئوية للمادة</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="progress animated-progress custom-progress progress-label">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%"
+                                                         aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="label">70%</div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="d-flex align-items-center mb-15 mt-4">
+                                                    <div class="flex-grow-1">
+                                                        <h5 class="card-title mb-0">النسية المئوية للمعلم</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="progress animated-progress custom-progress progress-label">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 52.9%"
+                                                         aria-valuenow="52.9" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="label">52.9%</div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row g-0 text-center mt-4">
+                                                    <div class="col">
+                                                        <div class="p-3 border border-dashed border-start-0">
+                                                            <h5 class="mb-1"><span class="counter-value fs-4" data-target="344">0</span>
+                                                            </h5>
+                                                            <p class="text-muted mb-0 fs-5">عدد التقييمات للمدرسة</p>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                    <div class="col">
+                                                        <div class="p-3 border border-dashed border-start-0">
+                                                            <h5 class="mb-1"><span class="counter-value fs-4" data-target="42">0</span></h5>
+                                                            <p class="text-muted mb-0 fs-5">عدد التقييمات للمادة</p>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                    <div class="col">
+                                                        <div class="p-3 border border-dashed border-start-0 border-end-0">
+                                                            <h5 class="mb-1"><span class="counter-value fs-4" data-target="20">0</span></h5>
+                                                            <p class="text-muted mb-0 fs-5">عدد التقييمات للمعلم</p>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                    <div class="col">
+                                                        <div class="p-3 border border-dashed border-start-0 border-end-0">
+                                                            <h5 class="mb-1"><span class="counter-value fs-4" data-target="6">0</span></h5>
+                                                            <p class="text-muted mb-0 fs-5">ترتيب المعلم</p>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                    <div class="col">
+                                                        <div class="p-3 border border-dashed border-start-1 border-end-0">
+                                                            <h5 class="mb-1"><span class="counter-value fs-4" data-target="4">0</span></h5>
+                                                            <p class="text-muted mb-0 fs-5">ترتيب المادة</p>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="tab-pane" id="categories_rates" role="tabpanel">
                                     <div class="row mb-3">
                                         {{--                                        <div class="col col-lg border-end">--}}
                                         {{--                                            <div class="py-4 px-3">--}}
@@ -529,7 +634,7 @@
                                 <div class="tab-pane" id="rate_statics" role="tabpanel">
                                     <div class="row g-2">
                                         <div class="card-header">
-                                            <h4 class="card-title mb-0">اجمالي التقييمات خلال الزيارات</h4>
+                                            <h4 class="card-title mb-0">اجمالي التقييمات</h4>
                                         </div>
                                         <div class="card-body">
                                             <div id="chart-line"
@@ -582,7 +687,12 @@
                 series: [{
                     data: [92, 69.7, 75.2, 80, 66, 75],
                     type: 'line',
-                    smooth: true
+                    smooth: true,
+                    label: {
+                        show: true, // Display the labels
+                        position: 'top', // Position the label at the top of the point
+                        formatter: '{c}' // Display the value of the point
+                    }
                 }]
             };
 
