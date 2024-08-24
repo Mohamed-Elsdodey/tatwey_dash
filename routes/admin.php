@@ -174,6 +174,7 @@ Route::group(
 
         ############################ Ahmed Tarek ########################################################
         Route::resource('questions', \App\Http\Controllers\Admin\QuestionController::class);
+        Route::resource('teacher-report', \App\Http\Controllers\Admin\TeacherReportController::class);
 
 
 
