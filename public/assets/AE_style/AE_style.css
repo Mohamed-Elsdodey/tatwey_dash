@@ -475,7 +475,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
 }
 
 [data-layout=vertical][data-sidebar=dark] .navbar-nav .nav-link i , .AE_dropdown  .nav-link i{
-    color: var(--hover);
+    /*color: var(--hover);*/
     font-size: 18px;
     margin-inline-end: 15px;
     min-width: 0;

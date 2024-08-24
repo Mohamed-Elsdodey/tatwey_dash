@@ -80,6 +80,12 @@
                         <i class="fas fa-info"></i> <span data-key="t-dashboards"> التقييمات </span>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{route('teacher-report.index')}}">
+                        <i class="fa fa-file"></i> <span data-key="t-dashboards"> تقرير المدرس </span>
+                    </a>
+                </li>
                 <!-- end Dashboard Menu -->
                  <!-- start AE dropdown -->
                   <!-- 1 -->
