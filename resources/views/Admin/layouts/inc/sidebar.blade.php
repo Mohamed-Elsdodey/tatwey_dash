@@ -86,6 +86,12 @@
                         <i class="fa fa-file"></i> <span data-key="t-dashboards"> تقرير المدرس </span>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{route('school-report.index')}}">
+                        <i class="fa fa-bar-chart"></i> <span data-key="t-dashboards"> تقرير المدرسة </span>
+                    </a>
+                </li>
                 <!-- end Dashboard Menu -->
                  <!-- start AE dropdown -->
                   <!-- 1 -->
