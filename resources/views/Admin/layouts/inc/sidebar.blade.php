@@ -32,11 +32,16 @@
 
             <div id="two-column-menu">
             </div>
-            <ul class="navbar-nav" id="navbar-nav">
 
+            <input type="text" id="searchSideBar" class="form-control mb-1 mt-1" placeholder="ابحث عن صفحة...">
+            <p id="resultCount" style="display: none">0 نتائج</p>
+            <ul class="navbar-nav" id="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link menu-link active" href="{{route('admin.index')}}">
-                        <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">لوحة التحكم</span>
+{{--                        <i class="ri-dashboard-2-line"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/home.svg')}}" class="icon_sidebar">
+
+                        <span data-key="t-dashboards">لوحة التحكم</span>
                     </a>
                 </li> <!-- end Dashboard Menu -->
 
@@ -45,7 +50,9 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('admins.index')}}">
-                        <i class="fa fa-user-secret"></i> <span data-key="t-dashboards">الاشراف</span>
+{{--                        <i class="fa fa-user-secret"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/admin.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards">الاشراف</span>
                     </a>
                 </li> <!-- end Dashboard Menu -->
 
@@ -54,7 +61,9 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('categories.index')}}">
-                        <i class="fa fa-book"></i> <span data-key="t-dashboards">المواد الدراسية</span>
+{{--                        <i class="fa fa-book"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/books.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards">المواد الدراسية</span>
                     </a>
                 </li> <!-- end Dashboard Menu -->
 
@@ -63,7 +72,9 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('rows.index')}}">
-                        <i class="fa fa-school"></i> <span data-key="t-dashboards">الصفوف الدراسية</span>
+{{--                        <i class="fa fa-school"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/bars.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards">الصفوف الدراسية</span>
                     </a>
                 </li> <!-- end Dashboard Menu -->
 
@@ -71,25 +82,33 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('settings.index')}}">
-                        <i class="fas fa-chalkboard-teacher"></i> <span data-key="t-dashboards"> الاعدادات</span>
+{{--                        <i class="fas fa-chalkboard-teacher"></i> --}}
+                        <img src="{{asset('assets/AE_style/images/setting.png')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards"> الاعدادات</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('questions.index')}}">
-                        <i class="fas fa-info"></i> <span data-key="t-dashboards"> التقييمات </span>
+{{--                        <i class="fas fa-info"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/stars.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards"> التقييمات </span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('teacher-report.index')}}">
-                        <i class="fa fa-file"></i> <span data-key="t-dashboards"> تقرير المدرس </span>
+{{--                        <i class="fa fa-file"></i> --}}
+                        <img src="{{asset('assets/AE_style/images/report.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards"> تقرير المدرس </span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('school-report.index')}}">
-                        <i class="fa fa-bar-chart"></i> <span data-key="t-dashboards"> تقرير المدرسة </span>
+{{--                        <i class="fa fa-bar-chart"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/school.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards"> تقرير المدرسة </span>
                     </a>
                 </li>
                 <!-- end Dashboard Menu -->
@@ -98,11 +117,13 @@
                 <li class="nav-item">
                     <div class="AE_dropdown">
                     <a class="nav-link menu-link AE_dropdown-toggle" href="#!" id="AE_dropdownMenuButton">
-                        <i class="fa fa-school"></i> <span data-key="t-dashboards">الصفوف الدراسية</span>
+{{--                        <i class="fa fa-school"></i>--}}
+                        <img src="{{asset('assets/AE_style/images/bars.svg')}}" class="icon_sidebar">
+                        <span data-key="t-dashboards">الصفوف الدراسية</span>
                         <i class="fa-solid fa-angle-left  AE_DropDownArrow"></i>
                     </a>
                         <ul class="AE_dropdown-menu " aria-labelledby="AE_dropdownMenuButton">
-                            <li><a class="AE_dropdown-item active" href="#">اضافة</a></li>
+                            <li><a class="AE_dropdown-item" href="#">اضافة</a></li>
                             <li><a class="AE_dropdown-item" href="#"> الاعدادات </a></li>
                             <li><a class="AE_dropdown-item" href="#"> اضافة طالب  </a></li>
                         </ul>

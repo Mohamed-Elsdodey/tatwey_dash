@@ -1,5 +1,3 @@
-
-<!-- JAVASCRIPT -->
 <script src="{{url('assets')}}/dashboard/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="{{url('assets')}}/dashboard/libs/simplebar/simplebar.min.js"></script>
 <script src="{{url('assets')}}/dashboard/libs/node-waves/waves.min.js"></script>

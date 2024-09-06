@@ -1,5 +1,6 @@
 /* start global style */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@font-face{font-family:montserrat;src:url("font/ArbFONTS-Montserrat-Arabic-Regular.ttf")}
 :root{
     --bg:#042954;
     --bg-Dark:#051f3e;
@@ -9,10 +10,12 @@
     --w:#ffffff;
     --sub-text:#828282;
     --title:#111111;
+    --vz-vertical-menu-bg-dark: #fff;
 }
 
 * {
-    font-family: "Noto Sans Arabic", sans-serif;
+    font-family: "Cairo", sans-serif;
+    /*font-family: "montserrat", sans-serif;*/
     font-optical-sizing: auto;
 }
 /*  my color class  */
@@ -464,7 +467,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
 /* start side bar */
 
 [data-layout=vertical][data-sidebar=dark] .navbar-nav .nav-link ,.AE_dropdown  .AE_dropdown-toggle{
-    color:#9ea8b5;
+    color:#39465F;
     font-weight: 500;
     font-size: 15px;
     padding: 12px 25px;
@@ -491,7 +494,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
     color:var(--hover);
 }
 [data-layout=vertical][data-sidebar-size=sm] .navbar-menu .navbar-nav .nav-item:hover>a.menu-link{
-    background-color: var(--bg);
+    background-color: var(--hover);
 }
 /* end  side bar */
 /* drop down  */
@@ -518,7 +521,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
     display: none;
 }
 .AE_dropdown .AE_dropdown-menu li a{
-    color: #9ea8b5;
+    color: #39465F;
 
     display: inline-block;
     font-size: 14px;
@@ -527,8 +530,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
     transition: 300ms ease-in-out;
 }
 .AE_dropdown .AE_dropdown-menu li a:hover , .AE_dropdown .AE_dropdown-menu li a.active{
-    background-color: var(--bg);
-    color: var(--w);
+    background-color: var(--hover);
+    color: white;
 }
 /* drop */
 /* style en  */
@@ -635,3 +638,40 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     }
 }
 /* end  responsive  */
+
+
+
+:root {
+    --vz-vertical-menu-bg-dark: #fff;
+}
+.simplebar-content .active, .AE_dropdown-menu li a.active{
+    background-color: var(--hover) !important;
+    color: white !important;
+    border-radius: 15px;
+}
+.navbar-nav .nav-item{
+    border: 0px !important;
+}
+.AE_dropdown-menu{
+    background-color: #fff !important;
+}
+.profile-wid-bg::before {
+    background: linear-gradient(to top, #173224, var(--hover));
+}
+#searchSideBar {
+    border: 1px solid rgba(101, 101, 101, 0.23);
+    border-radius: 20px;
+    padding: 12px;
+    transition: border 0.6s ease, border-radius 0.6s ease;
+}
+
+#searchSideBar:focus {
+    border: 1px solid var(--hover);
+    border-radius: 0px;
+}
+
+.icon_sidebar {
+    width: 22px;
+    height: 23px;
+    margin-left: 4px;
+}

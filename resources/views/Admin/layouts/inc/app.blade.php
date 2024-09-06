@@ -13,6 +13,25 @@
 
 
         @endif
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const sidebarData = sessionStorage.getItem("data-sidebar");
+
+                console.log("Retrieved value from sessionStorage:", sidebarData);
+
+                if (sidebarData === null || sidebarData === "") {
+                    console.log("Setting value to 'light'");
+                    sessionStorage.setItem("data-sidebar", "light");
+                    document.documentElement.setAttribute("data-sidebar", "light");
+                } else {
+                    console.log("Value already set to:", sidebarData);
+                    document.documentElement.setAttribute("data-sidebar", sidebarData);
+                }
+            });
+        </script>
+
         @include('layouts.loader.loader')
 
         <!-- Begin page -->
@@ -43,13 +62,13 @@
                         <!-- start AE_breadcrumb -->
                          <div class="AE_breadcrumb">
                             <h4>لوحة التحكم</h4>
-                            
+
                             <ul>
-                                <li class="AE_defaultPage"> 
+                                <li class="AE_defaultPage">
                                     <a href="#!">الصفحة الرئيسية</a>
                                 </li>
                                 <li class="AE_separator"  ><i class="fa-solid fa-angle-left"></i></li>
-                                
+
                                 <li class="AE_changePage">لوحة التحكم</li>
                             </ul>
                          </div>
@@ -212,9 +231,6 @@
 
             @endisset
         </script>
-
-
-
         </body>
 
 </html>
