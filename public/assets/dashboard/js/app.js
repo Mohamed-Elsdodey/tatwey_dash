@@ -211,11 +211,11 @@
                 case"light":
                     C("data-topbar", "light"), sessionStorage.setItem("data-topbar", "light"), document.documentElement.setAttribute("data-topbar", "light");
                     break;
-                case"dark":
-                    C("data-topbar", "dark"), sessionStorage.setItem("data-topbar", "dark"), document.documentElement.setAttribute("data-topbar", "dark");
+                case"darkk":
+                    C("data-topbar", "darkk"), sessionStorage.setItem("data-topbar", "darkk"), document.documentElement.setAttribute("data-topbar", "darkk");
                     break;
                 default:
-                    "dark" == sessionStorage.getItem("data-topbar") ? (C("data-topbar", "dark"), sessionStorage.setItem("data-topbar", "dark"), document.documentElement.setAttribute("data-topbar", "dark")) : (C("data-topbar", "light"), sessionStorage.setItem("data-topbar", "light"), document.documentElement.setAttribute("data-topbar", "light"))
+                    "darkk" == sessionStorage.getItem("data-topbar") ? (C("data-topbar", "darkk"), sessionStorage.setItem("data-topbar", "darkk"), document.documentElement.setAttribute("data-topbar", "darkk")) : (C("data-topbar", "light"), sessionStorage.setItem("data-topbar", "light"), document.documentElement.setAttribute("data-topbar", "light"))
             }
             switch (e["data-layout-style"]) {
                 case"default":
@@ -247,11 +247,11 @@
                 case"light":
                     C("data-layout-mode", "light"), document.documentElement.setAttribute("data-layout-mode", "light"), sessionStorage.setItem("data-layout-mode", "light");
                     break;
-                case"dark":
-                    C("data-layout-mode", "dark"), document.documentElement.setAttribute("data-layout-mode", "dark"), sessionStorage.setItem("data-layout-mode", "dark");
+                case"darkk":
+                    C("data-layout-mode", "darkk"), document.documentElement.setAttribute("data-layout-mode", "darkk"), sessionStorage.setItem("data-layout-mode", "darkk");
                     break;
                 default:
-                    sessionStorage.getItem("data-layout-mode") && "dark" == sessionStorage.getItem("data-layout-mode") ? (sessionStorage.setItem("data-layout-mode", "dark"), document.documentElement.setAttribute("data-layout-mode", "dark"), C("data-layout-mode", "dark")) : (sessionStorage.setItem("data-layout-mode", "light"), document.documentElement.setAttribute("data-layout-mode", "light"), C("data-layout-mode", "light"))
+                    sessionStorage.getItem("data-layout-mode") && "darkk" == sessionStorage.getItem("data-layout-mode") ? (sessionStorage.setItem("data-layout-mode", "darkk"), document.documentElement.setAttribute("data-layout-mode", "darkk"), C("data-layout-mode", "darkk")) : (sessionStorage.setItem("data-layout-mode", "light"), document.documentElement.setAttribute("data-layout-mode", "light"), C("data-layout-mode", "light"))
             }
             switch (e["data-layout-width"]) {
                 case"fluid":
@@ -267,8 +267,8 @@
                 case"light":
                     C("data-sidebar", "light"), sessionStorage.setItem("data-sidebar", "light"), document.documentElement.setAttribute("data-sidebar", "light");
                     break;
-                case"dark":
-                    C("data-sidebar", "dark"), sessionStorage.setItem("data-sidebar", "dark"), document.documentElement.setAttribute("data-sidebar", "dark");
+                case"darkk":
+                    C("data-sidebar", "darkk"), sessionStorage.setItem("data-sidebar", "darkk"), document.documentElement.setAttribute("data-sidebar", "darkk");
                     break;
                 case"gradient":
                     C("data-sidebar", "gradient"), sessionStorage.setItem("data-sidebar", "gradient"), document.documentElement.setAttribute("data-sidebar", "gradient");
@@ -283,7 +283,7 @@
                     C("data-sidebar", "gradient-4"), sessionStorage.setItem("data-sidebar", "gradient-4"), document.documentElement.setAttribute("data-sidebar", "gradient-4");
                     break;
                 default:
-                    sessionStorage.getItem("data-sidebar") && "light" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "light"), C("data-sidebar", "light"), document.documentElement.setAttribute("data-sidebar", "light")) : "dark" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "dark"), C("data-sidebar", "dark"), document.documentElement.setAttribute("data-sidebar", "dark")) : "gradient" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "gradient"), C("data-sidebar", "gradient"), document.documentElement.setAttribute("data-sidebar", "gradient")) : "gradient-2" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "gradient-2"), C("data-sidebar", "gradient-2"), document.documentElement.setAttribute("data-sidebar", "gradient-2")) : "gradient-3" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "gradient-3"), C("data-sidebar", "gradient-3"), document.documentElement.setAttribute("data-sidebar", "gradient-3")) : "gradient-4" == sessionStorage.getItem("data-sidebar") && (sessionStorage.setItem("data-sidebar", "gradient-4"), C("data-sidebar", "gradient-4"), document.documentElement.setAttribute("data-sidebar", "gradient-4"))
+                    sessionStorage.getItem("data-sidebar") && "light" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "light"), C("data-sidebar", "light"), document.documentElement.setAttribute("data-sidebar", "light")) : "darkk" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "darkk"), C("data-sidebar", "darkk"), document.documentElement.setAttribute("data-sidebar", "darkk")) : "gradient" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "gradient"), C("data-sidebar", "gradient"), document.documentElement.setAttribute("data-sidebar", "gradient")) : "gradient-2" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "gradient-2"), C("data-sidebar", "gradient-2"), document.documentElement.setAttribute("data-sidebar", "gradient-2")) : "gradient-3" == sessionStorage.getItem("data-sidebar") ? (sessionStorage.setItem("data-sidebar", "gradient-3"), C("data-sidebar", "gradient-3"), document.documentElement.setAttribute("data-sidebar", "gradient-3")) : "gradient-4" == sessionStorage.getItem("data-sidebar") && (sessionStorage.setItem("data-sidebar", "gradient-4"), C("data-sidebar", "gradient-4"), document.documentElement.setAttribute("data-sidebar", "gradient-4"))
             }
             switch (e["data-sidebar-image"]) {
                 case"none":
@@ -389,8 +389,8 @@
         "search-options" !== e.target.getAttribute("id") && (d.classList.remove("show"), t.classList.add("d-none"))
     })), (i = document.querySelector('[data-toggle="fullscreen"]')) && i.addEventListener("click", function (e) {
         e.preventDefault(), document.body.classList.toggle("fullscreen-enable"), document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement ? document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen && document.webkitCancelFullScreen() : document.documentElement.requestFullscreen ? document.documentElement.requestFullscreen() : document.documentElement.mozRequestFullScreen ? document.documentElement.mozRequestFullScreen() : document.documentElement.webkitRequestFullscreen && document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT)
-    }), document.addEventListener("fullscreenchange", N), document.addEventListener("webkitfullscreenchange", N), document.addEventListener("mozfullscreenchange", N), l = document.getElementsByTagName("HTML")[0], (i = document.querySelectorAll(".light-dark-mode")) && i.length && i[0].addEventListener("click", function (e) {
-        l.hasAttribute("data-layout-mode") && "dark" == l.getAttribute("data-layout-mode") ? F("data-layout-mode", "light", "layout-mode-light", l) : F("data-layout-mode", "dark", "layout-mode-dark", l)
+    }), document.addEventListener("fullscreenchange", N), document.addEventListener("webkitfullscreenchange", N), document.addEventListener("mozfullscreenchange", N), l = document.getElementsByTagName("HTML")[0], (i = document.querySelectorAll(".light-darkk-mode")) && i.length && i[0].addEventListener("click", function (e) {
+        l.hasAttribute("data-layout-mode") && "darkk" == l.getAttribute("data-layout-mode") ? F("data-layout-mode", "light", "layout-mode-light", l) : F("data-layout-mode", "darkk", "layout-mode-darkk", l)
     }), I(), k(), h(), document.getElementsByClassName("dropdown-item-cart") && (r = document.querySelectorAll(".dropdown-item-cart").length, Array.from(document.querySelectorAll("#page-topbar .dropdown-menu-cart .remove-item-btn")).forEach(function (e) {
         e.addEventListener("click", function (e) {
             r--, this.closest(".dropdown-item-cart").remove(), Array.from(document.getElementsByClassName("cartitem-badge")).forEach(function (e) {

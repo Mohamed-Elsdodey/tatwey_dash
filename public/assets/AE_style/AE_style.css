@@ -656,7 +656,7 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     background-color: #fff !important;
 }
 .profile-wid-bg::before {
-    background: linear-gradient(to top, #173224, var(--hover));
+    background: linear-gradient(to top, #173224, #84c7859e);
 }
 #searchSideBar {
     border: 1px solid rgba(101, 101, 101, 0.23);
@@ -675,3 +675,50 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     height: 20px;
     margin-left: 6px;
 }
+
+.semi-dark{
+    background-color: #292e32 !important;
+}
+.semi-dark .user-name-text{
+    color: #e3e3e3;
+}
+.semi-dark .nav-item .nav-link{
+    color: #e3e3e3 !important;
+}
+.dark-side{
+    background-color: #242424 !important;
+    border: 0 !important;
+}
+.dark-side .nav-link{
+    color: #e3e3e3 !important;
+}
+.dark-side #searchSideBar{
+    background-color: #363636 !important;
+    color: #e3e3e3 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: gray;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #414141;
+    border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #282828;
+}
+
+
+

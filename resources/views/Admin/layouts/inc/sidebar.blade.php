@@ -37,7 +37,7 @@
             <ul class="navbar-nav" id="navbar-nav">
 
                 <li class="nav-item ">
-                    <a class="nav-link menu-link" href="{{ route('admin.index') }}">
+                    <a class="nav-link menu-link active" href="{{ route('admin.index') }}">
                         <img src="{{url('assets/dashboard/AE_style/images/home.svg')}}" class="icon_sidebar">
                         <span data-key="t-dashboards">{{ helperTrans('admin.dashboard') }}</span>
                     </a>
