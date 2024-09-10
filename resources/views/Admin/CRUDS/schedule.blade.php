@@ -3,7 +3,7 @@
     الجدول الدراسي
 @endsection
 @section('css')
-{{--    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet"/>--}}
+    {{--    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet"/>--}}
     <style>
         :root {
             --porcelain: #ECEFF1;
@@ -150,7 +150,30 @@
 
         </div>
         <div class="card-body">
-            <div class="timetable">
+            <div class="row mb-3">
+                <div class="col-8">
+                    <h3>اختر الصف</h3>
+                    <select name="category" class="form-control select2-category select2" data-search-link="true">
+                        <option value="1">الاول</option>
+                        <option value="2">الثاني</option>
+                        <option value="3">الثالث</option>
+                        <option value="3">الرابع</option>
+                    </select>
+                    <br>
+                    <h3>اختر الفصل</h3>
+                    <select name="category" class="form-control select2-category select2" data-search-link="true">
+                        <option value="1">فصل 1</option>
+                        <option value="2">فصل 2</option>
+                        <option value="3">فصل 3</option>
+                    </select>
+                    <button class="btn btn-success mt-3" id="showTable">عرض الجدول</button>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="{{asset('assets\AE_style\images\c-1.png')}}">
+                </div>
+            </div>
+
+            <div class="timetable d-none" id="timetable">
                 <div class="week-names">
                     <div>الأحد</div>
                     <div>الاثنين</div>
@@ -533,8 +556,7 @@
                 select.selectedIndex = 0;
                 sessionDiv.classList.remove('has-teacher');
                 sessionDiv.classList.add('animation-creative');
-            }
-            else{
+            } else {
                 toastr.warning('يرجى تحديد مدرس اولا');
             }
         }
@@ -553,6 +575,10 @@
                 sessionDiv.classList.add('animation-creative');
             }
         }
+
+        $('#showTable').click(function () {
+            $('#timetable').removeClass('d-none');
+        });
         // $(document).ready(function () {
         //     $('.select2').select2();
         // });
