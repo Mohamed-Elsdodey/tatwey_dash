@@ -692,6 +692,9 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
 .dark-side .nav-link{
     color: #e3e3e3 !important;
 }
+.dark-side .AE_dropdown-item{
+    color: #e3e3e3 !important;
+}
 .dark-side #searchSideBar{
     background-color: #363636 !important;
     color: #e3e3e3 !important;

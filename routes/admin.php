@@ -53,6 +53,7 @@ Route::group(
 
         Route::resource('rows', \App\Http\Controllers\Admin\RowController::class);
         Route::get('/export-row-students/{id}', [\App\Http\Controllers\Admin\RowController::class,'exportToExcel'])->name('admin.exportRowStudents');
+        Route::get('showSchedule', [\App\Http\Controllers\Admin\RowController::class,'showSchedule'])->name('admin.showSchedule');
 
         Route::get('importRowStudent/{id}',[\App\Http\Controllers\Admin\RowController::class,'importRowStudent'])->name('admin.importRowStudent');
         Route::post('importRowStudents/{id}',[\App\Http\Controllers\Admin\RowController::class,'importRowStudents'])->name('admin.importRowStudents');

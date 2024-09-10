@@ -196,4 +196,9 @@ class RowController extends Controller
 
     }
 
+    public function showSchedule()
+    {
+        return view('Admin.CRUDS.schedule');
+    }
+
 }
