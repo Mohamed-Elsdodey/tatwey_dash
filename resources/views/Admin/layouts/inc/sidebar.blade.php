@@ -201,6 +201,26 @@
                     </a>
                 </li> <!-- end Administrations Menu -->
 
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('admin.showSchedule') }}">
+                        <img src="{{url('assets/dashboard/AE_style/images/days.png')}}" class="icon_sidebar">
+                        <span data-key="t-administrations">ايام العمل</span>
+                    </a>
+                </li> <!-- end Administrations Menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('admin.showSchedule') }}">
+                        <img src="{{url('assets/dashboard/AE_style/images/lessons.png')}}" class="icon_sidebar">
+                        <span data-key="t-administrations">الحصص الدراسية</span>
+                    </a>
+                </li> <!-- end Administrations Menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('admin.showSchedule') }}">
+                        <img src="{{url('assets/dashboard/AE_style/images/calendar.png')}}" class="icon_sidebar">
+                        <span data-key="t-administrations">{{ helperTrans('admin.School schedule') }}</span>
+                    </a>
+                </li> <!-- end Administrations Menu -->
 
             </ul>
         </div>

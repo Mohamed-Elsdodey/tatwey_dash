@@ -82,41 +82,42 @@ if (!function_exists('helperTrans')) {
         $file = $arrayOfKeys[0] ?? 'file';
         $key = $arrayOfKeys[1] ?? '';
 
-        // List of languages to handle
-        $languages = ['en', 'ar'];
+        $languages = ['en', 'ar']; // Define the languages to update
+        $results = [];
 
-        $processed_key = ucfirst(str_replace('_', ' ', remove_invalid_characters($key)));
+        try {
+            foreach ($languages as $locale) {
+                $lang_file_path = base_path("lang/$locale/$file.php");
 
-        foreach ($languages as $local) {
-            \Illuminate\Support\Facades\App::setLocale($local);
+                // Load the language file if it exists, otherwise initialize an empty array
+                $lang_array = file_exists($lang_file_path) ? include($lang_file_path) : [];
 
-            try {
-                $filePath = resource_path("lang/$local/$file.php");
+                $processed_key = ucfirst(str_replace('_', ' ', remove_invalid_characters($key)));
 
-                // Check if the file exists and create it if it doesn't
-                if (!file_exists($filePath)) {
-                    file_put_contents($filePath, "<?php return []; ?>");
-                }
-
-                // Load the existing translations
-                $lang_array = include($filePath);
-
-                // Add the key if it does not exist
+                // Add the key to the language file if it doesn't exist
                 if (!array_key_exists($key, $lang_array)) {
                     $lang_array[$key] = $processed_key;
+
+                    // Write the updated language array back to the file
                     $str = "<?php return " . var_export($lang_array, true) . ";";
-                    file_put_contents($filePath, $str);
+                    file_put_contents($lang_file_path, $str);
                 }
-            } catch (\Exception $exception) {
-                // Log the exception if needed
+
+                // Retrieve the translation
+                $results[$locale] = __("$file.$key", [], $locale);
             }
+
+            // Return the translation in the current application locale
+            $result = $results[app()->getLocale()] ?? $results['en'];
+        } catch (\Exception $exception) {
+            // Fall back to the original translation method if any error occurs
+            $result = __("$file.$key");
         }
 
-        // Return the translation for the current locale
-        return __("$file.$key");
+        return $result;
     }
-
 }
+
 
 
 

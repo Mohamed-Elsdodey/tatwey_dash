@@ -31,25 +31,29 @@ $(document).ready(function () {
 
 $('.light-dark-mode').click(function () {
     var navbarMenu = document.getElementsByClassName('navbar-menu');
-    var header = document.getElementById('page-topbar');
     var userHeader = document.getElementsByClassName('topbar-user');
+    var AE_dropdownMenu = document.getElementsByClassName('AE_dropdown-menu');
+    var header = document.getElementById('page-topbar');
+    var navbarSupportedContent = document.getElementById('navbarSupportedContent');
 
     // Check if 'dark-side' is already set in local storage
     if (localStorage.getItem('dark-mode') === 'enabled') {
-        // Remove the 'dark-side' class from all elements and clear local storage
-        for (let i = 0; i < navbarMenu.length; i++) {
-            navbarMenu[i].classList.remove('dark-side');
-            userHeader[i].classList.remove('semi-dark');
-        }
-        header.classList.remove('semi-dark');
+        // Remove the 'dark-side' and 'semi-dark' classes from all elements and clear local storage
+        [...navbarMenu].forEach(el => el.classList.remove('dark-side'));
+        [...AE_dropdownMenu].forEach(el => el.classList.remove('dark-side'));
+        [...userHeader].forEach(el => el.classList.remove('semi-dark'));
+        if (header) header.classList.remove('semi-dark');
+        if (navbarSupportedContent) navbarSupportedContent.classList.remove('semi-dark');
+
         localStorage.removeItem('dark-mode');
     } else {
-        // Add the 'dark-side' class and set it in local storage
-        for (let i = 0; i < navbarMenu.length; i++) {
-            navbarMenu[i].classList.add('dark-side');
-            userHeader[i].classList.add('semi-dark');
-        }
-        header.classList.add('semi-dark');
+        // Add the 'dark-side' and 'semi-dark' classes and set it in local storage
+        [...navbarMenu].forEach(el => el.classList.add('dark-side'));
+        [...AE_dropdownMenu].forEach(el => el.classList.add('dark-side'));
+        [...userHeader].forEach(el => el.classList.add('semi-dark'));
+        if (header) header.classList.add('semi-dark');
+        if (navbarSupportedContent) navbarSupportedContent.classList.add('semi-dark');
+
         localStorage.setItem('dark-mode', 'enabled');
     }
 });
@@ -60,11 +64,14 @@ $(document).ready(function () {
         var navbarMenu = document.getElementsByClassName('navbar-menu');
         var header = document.getElementById('page-topbar');
         var userHeader = document.getElementsByClassName('topbar-user');
+        var AE_dropdownMenu = document.getElementsByClassName('AE_dropdown-menu');
+        var navbarSupportedContent = document.getElementById('navbarSupportedContent');
 
-        for (let i = 0; i < navbarMenu.length; i++) {
-            navbarMenu[i].classList.add('dark-side');
-            userHeader[i].classList.add('semi-dark');
-        }
-        header.classList.add('semi-dark');
+        [...navbarMenu].forEach(el => el.classList.add('dark-side'));
+        [...AE_dropdownMenu].forEach(el => el.classList.add('dark-side'));
+        [...userHeader].forEach(el => el.classList.add('semi-dark'));
+        if (header) header.classList.add('semi-dark');
+        if (navbarSupportedContent) navbarSupportedContent.classList.add('semi-dark');
     }
 });
+
