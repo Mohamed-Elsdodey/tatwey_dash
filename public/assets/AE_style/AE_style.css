@@ -64,7 +64,7 @@
 /* title */
 .AE_title{
     font-weight: 900;
-    font-size: 20px;
+    font-size: 16px;
 }
 /* button */
 .AE_button{
@@ -81,7 +81,7 @@
     /* font-size: 18px; */
 }
 .AE_button.dropdown-toggle::after{
-    font-size: 16px ;
+    font-size: 14px ;
     position: relative;
     top: 2px;
 }
@@ -150,7 +150,7 @@ div.dt-button-collection div > button.dt-button{
 }
 div.dt-button-collection div > button span{
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.1em;
 
 }
 div.dt-button-collection div >  button.dt-button:hover ,
@@ -166,7 +166,7 @@ div.dt-button-collection div >  button.dt-button:active{
 }
 .form-select{
     font-weight: 500;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 .form-select:focus  , div.dataTables_wrapper div.dataTables_filter input:focus{
     border-color: var(--hover);
@@ -199,7 +199,7 @@ div.dataTables_wrapper div.dataTables_filter input{
 
 .AE_breadcrumb h4 {
     margin-inline: 2rem;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     padding-bottom: 10px;
 }
@@ -211,7 +211,7 @@ div.dataTables_wrapper div.dataTables_filter input{
 }
 
 .AE_breadcrumb ul li {
-    font-size: 16px;
+    font-size: 14px;
     padding-inline: 5px;
     font-weight: 500;
     color: var(--hover);
@@ -253,14 +253,14 @@ body[dir="ltr"] .AE_breadcrumb ul .AE_separator i{
 }
 .AE_subTitle{
     /* opacity: .6; */
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
     color: var(--sub-text);
 }
 .AE_mainTitle{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
 }
 .AE_icon{
     width: 80px;
@@ -410,7 +410,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
 }
 .AE_selectBox label span{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 21px;
     color: var(--title);
     padding-inline: 2rem;
     margin-bottom: .5rem;
@@ -427,7 +427,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
 .AE_label{
     padding-inline: 1rem;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 5px;
    color: var(--sub-text);
 }
@@ -469,7 +469,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
 [data-layout=vertical][data-sidebar=dark] .navbar-nav .nav-link ,.AE_dropdown  .AE_dropdown-toggle{
     color:#39465F;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     padding: 12px 25px;
     position: relative;
 }
@@ -479,7 +479,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
 
 [data-layout=vertical][data-sidebar=dark] .navbar-nav .nav-link i , .AE_dropdown  .nav-link i{
     /*color: var(--hover);*/
-    font-size: 18px;
+    font-size: 16px;
     margin-inline-end: 15px;
     min-width: 0;
 
@@ -508,7 +508,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 14px;
+    font-size: 13px;
     transition: .3s ease-in-out;
 }
 .AE_dropdown  .nav-link  .AE_DropDownArrow.active{
@@ -524,7 +524,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination{
     color: #39465F;
 
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     width: 100%;
     transition: 300ms ease-in-out;
@@ -571,7 +571,7 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     opacity: 1;
 }
 .AE_FastLink .fa-bars{
-    font-size: 20px;
+    font-size: 18px;
     color: #878a99;
 
 }
@@ -584,7 +584,7 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     .AE_FastLink .nav-link{
         color: var(--sub-text) !important;
         padding: 0 !important;
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .AE_FastLink .nav-link.active , .AE_FastLink .nav-link:hover{
         color: var(--hover) !important;

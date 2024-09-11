@@ -199,45 +199,45 @@
                     <!-- ده مثلا الحصة الاولي ليوم الاحد -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>خالد</option>
-                            <option>محمود</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة عربية</option>
+                            <option>مادة لغة رياضة</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <!-- وده الحصة الاولي ليوم الاثنين -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>حسن</option>
-                            <option>عبدالله</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>تاريخ</option>
+                            <option>دراسات</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <!-- وده الحصة الاولي ليوم التلات -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>صالح</option>
-                            <option>فهد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>رسم</option>
+                            <option>علم النفس</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <!-- وده الحصة الاولي ليوم الاربع -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>راشد</option>
-                            <option>حمد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>علوم</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <!-- وده الحصة الاولي ليوم الخميس -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>ياسر</option>
-                            <option>نواف</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>احياء</option>
+                            <option>علوم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -246,41 +246,41 @@
                     <!-- الحصة 2 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>بدر</option>
-                            <option>راشد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة عربية</option>
+                            <option>علوم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>سعيد</option>
-                            <option>سلمان</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة عربية</option>
+                            <option>لغة انجليزية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>حمد</option>
-                            <option>عبدالعزيز</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>احياء</option>
+                            <option>لغة انجليزية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>محمود</option>
-                            <option>صالح</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة رياضة</option>
+                            <option>رسم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>حسن</option>
-                            <option>عبدالله</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>تاريخ</option>
+                            <option>دراسات</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -289,41 +289,41 @@
                     <!-- الحصة 3 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>خالد</option>
-                            <option>بدر</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة عربية</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>محمود</option>
-                            <option>حمد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة رياضة</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالعزيز</option>
-                            <option>فهد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>علم النفس</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>حسن</option>
-                            <option>سعيد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>تاريخ</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>سلمان</option>
-                            <option>راشد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>علوم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -332,41 +332,41 @@
                     <!-- الحصة 4 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>خالد</option>
-                            <option>حمد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة عربية</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
+                            <option value="">لم يتم تحديد المادة</option>
                             <option>علي</option>
-                            <option>سعيد</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>فهد</option>
-                            <option>راشد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>علم النفس</option>
+                            <option>علوم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>سلمان</option>
-                            <option>حمد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالله</option>
-                            <option>ياسر</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>دراسات</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -374,41 +374,41 @@
                     <!-- الحصة 5 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>سلمان</option>
-                            <option>بدر</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>فهد</option>
-                            <option>ياسر</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>علم النفس</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالعزيز</option>
-                            <option>خالد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>مادة لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>راشد</option>
-                            <option>حسن</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>علوم</option>
+                            <option>تاريخ</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>محمود</option>
-                            <option>سعيد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة رياضة</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -416,41 +416,41 @@
                     <!-- الحصة 6 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>حسن</option>
-                            <option>محمود</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>تاريخ</option>
+                            <option>مادة لغة رياضة</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالعزيز</option>
-                            <option>سعيد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>ياسر</option>
-                            <option>فهد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>احياء</option>
+                            <option>علم النفس</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>محمود</option>
-                            <option>راشد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة رياضة</option>
+                            <option>علوم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالله</option>
-                            <option>خالد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>دراسات</option>
+                            <option>مادة لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -458,41 +458,41 @@
                     <!-- الحصة 7 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>سلمان</option>
-                            <option>بدر</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>فهد</option>
-                            <option>ياسر</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>علم النفس</option>
+                            <option>احياء</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالعزيز</option>
-                            <option>خالد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>مادة لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>راشد</option>
-                            <option>حسن</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>علوم</option>
+                            <option>تاريخ</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>محمود</option>
-                            <option>سعيد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة رياضة</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -500,41 +500,41 @@
                     <!-- الحصة 8 -->
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>حسن</option>
-                            <option>محمود</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>تاريخ</option>
+                            <option>مادة لغة رياضة</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالعزيز</option>
-                            <option>سعيد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>لغة انجليزية</option>
+                            <option>لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>ياسر</option>
-                            <option>فهد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>احياء</option>
+                            <option>علم النفس</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>محمود</option>
-                            <option>راشد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>مادة لغة رياضة</option>
+                            <option>علوم</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
                     <div class="session">
                         <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المدرس</option>
-                            <option>عبدالله</option>
-                            <option>خالد</option>
+                            <option value="">لم يتم تحديد المادة</option>
+                            <option>دراسات</option>
+                            <option>مادة لغة عربية</option>
                         </select>
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
@@ -557,7 +557,7 @@
                 sessionDiv.classList.remove('has-teacher');
                 sessionDiv.classList.add('animation-creative');
             } else {
-                toastr.warning('يرجى تحديد مدرس اولا');
+                toastr.warning('يرجى تحديد حصة اولا');
             }
         }
 
