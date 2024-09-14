@@ -158,7 +158,7 @@
                                     <a class="dropdown-item notify-item language py-2" hreflang="{{ $localeCode }}"
                                        href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
 
-                                        <img src="{{url('assets')}}/dashboard/images/flags/qatar.webp" alt="user-image"
+                                        <img src="{{url('assets')}}/dashboard/images/flags/flag.svg" alt="user-image"
                                              class="me-2 rounded" height="18">
                                         <span class="align-middle"> {{trans('frontend.arb')}} </span>
                                     </a>
