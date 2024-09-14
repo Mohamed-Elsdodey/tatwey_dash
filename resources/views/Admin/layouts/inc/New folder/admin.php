@@ -24,8 +24,8 @@ use Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains;
 
 Route::middleware([
     'web',
-//    InitializeTenancyByDomain::class,
-//    PreventAccessFromCentralDomains::class,
+    InitializeTenancyByDomain::class,
+    PreventAccessFromCentralDomains::class,
 ])->group(function () {
 
 
@@ -61,13 +61,13 @@ Route::middleware([
 
             Route::group(['middleware' => 'admin', 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath'], function () {
 
-
+            
                 Route::get('questions', function(){
                     return view('Admin.CRUDS.questions.index');
                 })->name('admin.questions');
 
 
-
+            
                 Route::get('/', [App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin.index');
                 Route::get('calender', [App\Http\Controllers\Admin\HomeController::class, 'calender'])->name('admin.calender');
                 Route::get('getStudents', [App\Http\Controllers\Admin\HomeController::class, 'getStudents'])->name('admin.getStudents');
@@ -85,7 +85,7 @@ Route::middleware([
                 Route::resource('categories', \App\Http\Controllers\Admin\CategoryController::class);
 
 
-                ### category Teachers
+                ### category Teachers 
 
                 Route::resource('category_teachers', \App\Http\Controllers\Admin\CategoryTeacherController::class);
                 Route::post('teacher_coordinator', [App\Http\Controllers\Admin\CategoryTeacherController::class, 'teacher_coordinator'])->name('admin.teacher_coordinator');
@@ -214,7 +214,7 @@ Route::middleware([
 
 
 
-                ### Reports ###
+                ### Reports ### 
 
                 Route::resource('message_reports', \App\Http\Controllers\Admin\Reports\MessageReportController::class);
 
@@ -255,35 +255,35 @@ Route::middleware([
                 Route::resource('administrations', \App\Http\Controllers\Admin\AdministrationController::class);
                 Route::get('activateAdministration', [App\Http\Controllers\Admin\AdministrationController::class, 'activate'])->name('admin.active.administration');
 
-                #### Standard Sections
+                #### Standard Sections 
 
                 Route::resource('standard_sections', \App\Http\Controllers\Admin\StandardSectionController::class);
                 Route::post('updateStandardSectionRank', [App\Http\Controllers\Admin\StandardSectionController::class, 'updateStandardSectionRank'])->name('admin.updateStandardSectionRank');
                 Route::post('activateSection', [App\Http\Controllers\Admin\StandardSectionController::class, 'activate'])->name('admin.activateSection');
 
 
-                #### Standards
+                #### Standards 
                 Route::resource('standards', \App\Http\Controllers\Admin\StandardController::class);
                 Route::post('updateStandardRank', [App\Http\Controllers\Admin\StandardController::class, 'updateStandardRank'])->name('admin.updateStandardRank');
                 Route::post('activateStandard', [App\Http\Controllers\Admin\StandardController::class, 'activate'])->name('admin.activateStandard');
 
-                ### days
+                ### days 
                 Route::resource('days', controller: \App\Http\Controllers\Admin\DayController::class);
                 Route::post('activateDay', [App\Http\Controllers\Admin\DayController::class, 'activate'])->name('admin.active.day');
 
-                ### Sessions
+                ### Sessions 
 
                 Route::resource(name: 'sessions', controller: \App\Http\Controllers\Admin\SessionController::class);
                 Route::post('activateSession', [App\Http\Controllers\Admin\SessionController::class, 'activate'])->name('admin.active.session');
 
-                ### schedules
+                ### schedules  
                 Route::resource(name: 'schedules', controller: \App\Http\Controllers\Admin\ScheduleController::class);
                 Route::get('getGeneralRoomForRow', [App\Http\Controllers\Admin\ScheduleController::class, 'getGeneralRoomForRow'])->name('admin.getGeneralRoomForRow');
                 Route::post('add_category_to_schedule', [App\Http\Controllers\Admin\ScheduleController::class, 'addCategoryToSchedule'])->name(name: 'admin.addCategoryToSchedule');
                 Route::post('delete_category_from_schedule', [App\Http\Controllers\Admin\ScheduleController::class, 'deleteCategoryFromSchedule'])->name(name: 'admin.deleteCategoryFromSchedule');
 
 
-
+                
 
 
 

@@ -50,37 +50,43 @@
                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                                                 <li class="nav-item">
-                                                    <a class="nav-link active" href="#">
+                                                    <a class="nav-link  header-link-ya active" href="#" data-open="edara">
                                                         <!-- <i class="fa-solid fa-desktop"></i> -->
                                                         الادارة
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#">
-                                                    <!-- <i class="fa-solid fa-pen"></i> -->
-                                                        المخالفات
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#">
-                                                    <!-- <i class="fa-solid fa-pen"></i> -->
-                                                        الغياب و التاخير
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#">
+                                                    <a class="nav-link header-link-ya " href="#" data-open="tahfez">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         التحفيز
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#">
+                                                    <a class="nav-link header-link-ya " href="#" data-open="taqeem">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
-                                                        الرسائل
+                                                        تقييم المعلمين
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#">
+                                                    <a class="nav-link header-link-ya " href="#" data-open="late">
+                                                    <!-- <i class="fa-solid fa-pen"></i> -->
+                                                        الغياب والتاخير
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link header-link-ya " href="#" data-open="notification-send">
+                                                    <!-- <i class="fa-solid fa-pen"></i> -->
+                                                        الرسائل والاشعارات
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link header-link-ya " href="#" data-open="academic">
+                                                        <!-- <i class="fa-solid fa-pen"></i> -->
+                                                        اكاديمي
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link header-link-ya " href="#" data-open="reports">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         التقارير
                                                     </a>
