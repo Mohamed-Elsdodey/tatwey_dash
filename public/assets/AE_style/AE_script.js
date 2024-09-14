@@ -75,3 +75,36 @@ $(document).ready(function () {
     }
 });
 
+$(document).ready(function () {
+    // Function to show the corresponding nav-side-ya element
+    function showActiveElement() {
+        // Get the active header-link-ya
+        const activeLink = $('.header-link-ya.active');
+
+        // If there's an active link, show the corresponding nav-side-ya element
+        if (activeLink.length) {
+            const openId = activeLink.attr('data-open');
+
+            // Hide all nav-side-ya elements
+            $('.nav-side-ya').hide();
+
+            // Show the nav-side-ya element with the matching data-id
+            $('.nav-side-ya[data-id="' + openId + '"]').removeClass('d-none').show();
+        }
+    }
+
+    // On page load, show the active element
+    showActiveElement();
+
+    // Handle click event for header-link-ya
+    $('.header-link-ya').click(function () {
+        // Remove 'active' class from all header-link-ya elements
+        $('.header-link-ya').removeClass('active');
+
+        // Add 'active' class to the clicked element
+        $(this).addClass('active');
+
+        // Show the corresponding nav-side-ya element
+        showActiveElement();
+    });
+});
