@@ -108,6 +108,23 @@
 </style>
 <!-- my style -->
 <link href="{{url('assets')}}/AE_style/AE_style.css" rel="stylesheet" type="text/css" />
+@if(\Illuminate\Support\Facades\App::getLocale() == 'ar')
+    <style>
+        @media (min-width: 768px) {
+            #page-topbar {
+                right: 220px;
+            }
+        }
+    </style>
+@else
+    <style>
+        @media (min-width: 768px) {
+            #page-topbar {
+                left: 220px;
+            }
+        }
+    </style>
+@endif
 @yield('css')
 {{--include loader css--}}
 @include('layouts.loader.loaderCss')

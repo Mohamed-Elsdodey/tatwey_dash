@@ -132,7 +132,7 @@
                         <img src="{{url('assets')}}/dashboard/images/flags/us.svg" alt="Header Language" height="20"
                              class="rounded">
                         @else
-                            <img src="{{url('assets')}}/dashboard/images/flags/qatar.webp" alt="Header Language" height="20"
+                            <img src="{{url('assets')}}/dashboard/images/flags/flag.svg" alt="Header Language" height="20"
                                  class="rounded">
                         @endif
                     </button>

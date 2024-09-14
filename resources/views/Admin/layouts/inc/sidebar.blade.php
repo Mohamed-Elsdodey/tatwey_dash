@@ -38,7 +38,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/home.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/job1.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">المسميات الوظيفية</span>
                     </a>
                 </li>
@@ -46,7 +46,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/home.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/job4.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">الموظفون</span>
                     </a>
                 </li>
@@ -54,7 +54,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/home.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/menu.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">المراحل التعلمية</span>
                     </a>
                 </li>
@@ -62,7 +62,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'rows.index' ? 'active' : '' }}"
                        href="{{ route('rows.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/lessons.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">الصفوف الدراسية</span>
                     </a>
                 </li>
@@ -70,7 +70,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/categories.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">الشعب</span>
                     </a>
                 </li>
@@ -95,7 +95,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/parents.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/students.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">الطلاب</span>
                     </a>
                 </li>
@@ -104,7 +104,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/parents.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/student1.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">نقل الطلاب</span>
                     </a>
                 </li>
@@ -112,7 +112,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="edara">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'admins.index' ? 'active' : '' }}"
                        href="{{ route('admins.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/admin.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/group.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">حسابات المستخدمين</span>
                     </a>
                 </li>
@@ -135,7 +135,7 @@
                 <li class="nav-item nav-side-ya d-none d-none" data-id="tahfez">
                     <a class="nav-link menu-link"
                        href="#">
-                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/points.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">نقاط التميز والعقوبة</span>
                     </a>
                 </li>
@@ -143,7 +143,7 @@
                 <li class="nav-item nav-side-ya d-none d-none" data-id="tahfez">
                     <a class="nav-link menu-link"
                        href="#">
-                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/best2.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">الطلاب المميزين</span>
                     </a>
                 </li>
@@ -151,7 +151,7 @@
                 <li class="nav-item nav-side-ya d-none d-none" data-id="tahfez">
                     <a class="nav-link menu-link  {{ request()->route()->getName() == 'bad_students.index' ? 'active' : '' }}"
                        href="{{ route('bad_students.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/guidance2.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">الارشاد والتوجيه</span>
                     </a>
                 </li>
@@ -159,7 +159,7 @@
                 <li class="nav-item nav-side-ya d-none d-none" data-id="tahfez">
                     <a class="nav-link menu-link  {{ request()->route()->getName() == 'admin.positive_calender' ? 'active' : '' }}"
                        href="{{ route('admin.positive_calender') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/reward2.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">تقويم التميز</span>
                     </a>
                 </li>
@@ -167,7 +167,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="tahfez">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'admin.negative_calender' ? 'active' : '' }}"
                        href="{{ route('admin.negative_calender') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/bad2.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">تقويم العقوبة</span>
                     </a>
                 </li>
@@ -178,7 +178,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="taqeem">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/evaluation1.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">معايير التقييم</span>
                     </a>
                 </li>
@@ -186,7 +186,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="taqeem">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'standard_sections.index' ? 'active' : '' }}"
                        href="{{ route('admin.negative_calender') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/bars.svg') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">فئات المعايير</span>
                     </a>
                 </li>
@@ -194,7 +194,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="taqeem">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'standards.index' ? 'active' : '' }}"
                        href="{{ route('admin.negative_calender') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/standard.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">المعايير</span>
                     </a>
                 </li>
@@ -202,7 +202,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="taqeem">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/edit.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">اضافة وحذف المعايير</span>
                     </a>
                 </li>
@@ -211,7 +211,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="taqeem">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/evaluation2.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">تقييم معلم</span>
                     </a>
                 </li>
@@ -233,7 +233,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="notification-send">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}" class="icon_sidebar">
+                        <img src="{{ url('assets/dashboard/AE_style/images/message.png') }}" class="icon_sidebar">
                         <span data-key="t-dashboards">اضافة رسالة</span>
                     </a>
                 </li>
@@ -258,10 +258,11 @@
                     </a>
                 </li>
 
-                <li class="nav-item nav-side-ya d-none" id="academic">
+                <li class="nav-item nav-side-ya d-none" data-id="academic">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'days.index' ? 'active' : '' }}"
                        href="{{ route('days.index') }}">
-                        <img src="{{url('assets/dashboard/AE_style/images/days.png')}}" class="icon_sidebar">
+                        <img src="{{url('assets/dashboard/AE_style/images/days.png')}}"
+                             class="icon_sidebar">
                         <span data-key="t-dashboards"> ايام العمل</span>
                     </a>
                 </li>
@@ -278,7 +279,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="academic">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/scores.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تسجيل درجات الاختبار</span>
                     </a>
@@ -290,7 +291,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-lin {{ request()->route()->getName() == 'message_reports.index' ? 'active' : '' }}"
                        href="{{ route('message_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report2.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير الرسايل والاشعارات</span>
                     </a>
@@ -298,7 +299,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'message_reports.index' ? 'active' : '' }}"
                        href="{{ route('message_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report3.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير عام للطالب</span>
                     </a>
@@ -306,7 +307,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'registration_authorities_reports.index' ? 'active' : '' }}"
                        href="{{ route('registration_authorities_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report4.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير جهات التسجيل</span>
                     </a>
@@ -314,7 +315,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'teacher_reports.index' ? 'active' : '' }}"
                        href="{{ route('teacher_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report14.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير التحفييز للمدرسين</span>
                     </a>
@@ -322,7 +323,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'row_postive_review_reports.index' ? 'active' : '' }}"
                        href="{{ route('row_postive_review_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report13.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير التحفيز للصفوف</span>
                     </a>
@@ -330,7 +331,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'row_negative_review_reports.index' ? 'active' : '' }}"
                        href="{{ route('row_negative_review_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report12.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير العقوبة للصفوف</span>
                     </a>
@@ -338,7 +339,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'postive_review_reports.index' ? 'active' : '' }}"
                        href="{{ route('postive_review_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report8.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير التحفيز</span>
                     </a>
@@ -346,7 +347,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link {{ request()->route()->getName() == 'negative_review_reports.index' ? 'active' : '' }}"
                        href="{{ route('negative_review_reports.index') }}">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report7.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير العقوبة</span>
                     </a>
@@ -355,7 +356,7 @@
                 <li class="nav-item nav-side-ya d-none" data-id="reports">
                     <a class="nav-link menu-link"
                        href="#!">
-                        <img src="{{ url('assets/dashboard/AE_style/images/negative.png') }}"
+                        <img src="{{ url('assets/dashboard/AE_style/images/report.png') }}"
                              class="icon_sidebar">
                         <span data-key="t-dashboards"> تقرير الغياب والتأخير</span>
                     </a>

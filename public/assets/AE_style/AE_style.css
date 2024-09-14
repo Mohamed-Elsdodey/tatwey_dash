@@ -110,11 +110,6 @@
 .navbar-menu{
     width: 220px;
 }
-@media (min-width: 768px) {
-    #page-topbar {
-        right: 220px;
-    }
-}
 .dt-buttons button.dt-button.AE_button{
     background-color: var(--bg);
     border: none;
