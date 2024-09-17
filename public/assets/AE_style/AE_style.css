@@ -700,6 +700,9 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     width: 8px;
     background-color: gray;
 }
+ul li, ol li{
+    list-style: none;
+}
 
 /* Track */
 ::-webkit-scrollbar-track {
