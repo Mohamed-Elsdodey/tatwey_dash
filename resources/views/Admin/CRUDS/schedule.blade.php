@@ -41,8 +41,8 @@
         .time-interval {
             grid-area: time;
             display: grid;
-            /* بدل 8 هنا حط عدد الحصص يا سدودو */
-            grid-template-rows: repeat(8, 1fr);
+            /* بدل 5 هنا حط عدد الحصص يا سدودو */
+            grid-template-rows: repeat(5, 1fr);
             font-size: 14px;
         }
 
@@ -62,7 +62,7 @@
             display: grid;
             border-bottom: 1px solid var(--porcelain);
             /* بدل 8 هنا حط عدد الحصص يا سدودو وطبعا متجربهاش من غير ما تعدل في ال HTML */
-            grid-template-rows: repeat(8, 1fr);
+            grid-template-rows: repeat(5, 1fr);
             /* بدل 5 هنا حط عدد ايام العمل يا سدودو وطبعا متجربهاش من غير ما تعدل في ال HTML */
             grid-template-columns: repeat(5, 1fr);
         }
@@ -188,9 +188,6 @@
                     <div>الحصة الثالثة</div>
                     <div>الحصة الرابعة</div>
                     <div>الحصة الخامسة</div>
-                    <div>الحصة السادسة</div>
-                    <div>الحصة السابعة</div>
-                    <div>الحصة الثامنة</div>
                 </div>
                 <div class="content">
                     <!-- هنا يا سدودي بنعرض الحصص لكل الايام :::: بمعني ان اول مقطع ده بيمثل الحصة الاولي لعدد 5 ايام  -->
@@ -413,131 +410,7 @@
                         <i class="fa fa-trash" onclick="clearSelect(this)"></i>
                     </div>
 
-                    <!-- الحصة 6 -->
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>تاريخ</option>
-                            <option>مادة لغة رياضة</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>لغة انجليزية</option>
-                            <option>لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>احياء</option>
-                            <option>علم النفس</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>مادة لغة رياضة</option>
-                            <option>علوم</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>دراسات</option>
-                            <option>مادة لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
 
-                    <!-- الحصة 7 -->
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>لغة انجليزية</option>
-                            <option>لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>علم النفس</option>
-                            <option>احياء</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>لغة انجليزية</option>
-                            <option>مادة لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>علوم</option>
-                            <option>تاريخ</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>مادة لغة رياضة</option>
-                            <option>لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-
-                    <!-- الحصة 8 -->
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>تاريخ</option>
-                            <option>مادة لغة رياضة</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>لغة انجليزية</option>
-                            <option>لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>احياء</option>
-                            <option>علم النفس</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>مادة لغة رياضة</option>
-                            <option>علوم</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
-                    <div class="session">
-                        <select onchange="markSession(this)" class="">
-                            <option value="">لم يتم تحديد المادة</option>
-                            <option>دراسات</option>
-                            <option>مادة لغة عربية</option>
-                        </select>
-                        <i class="fa fa-trash" onclick="clearSelect(this)"></i>
-                    </div>
                 </div>
             </div>
         </div>

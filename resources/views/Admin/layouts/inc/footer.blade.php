@@ -1,15 +1,15 @@
-<footer class="footer">
+<footer class="footer" style="height: 85px">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 mt-3">
                 <script>document.write(new Date().getFullYear())</script>
-                © <a href="">Elsdodey.
+                © <a href="" class="text-success fw-bold">تقييم ومتابعة
                 </a>
             </div>
-            <div class="col-sm-6">
-                <div class="text-sm-end d-none d-sm-block">
-                    Design & Develop by <a href="">Elsdodey
-                    </a>
+            <div class="col-sm-6 text-center">
+                <div class="text-sm-end" style="align-items: center">
+                    تم التطوير والتصميم بواسطة
+                        <img src="{{ get_file(setting()->logo_header) }}" style="max-width: 80px;max-height: 60px">
                 </div>
             </div>
         </div>
