@@ -200,5 +200,9 @@ class RowController extends Controller
     {
         return view('Admin.CRUDS.schedule');
     }
+    public function tet()
+    {
+        return view('Admin.CRUDS.students.index');
+    }
 
 }

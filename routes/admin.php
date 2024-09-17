@@ -280,6 +280,7 @@ Route::middleware([
                 Route::resource(name: 'schedules', controller: \App\Http\Controllers\Admin\ScheduleController::class);
                 Route::get('getGeneralRoomForRow', [App\Http\Controllers\Admin\ScheduleController::class, 'getGeneralRoomForRow'])->name('admin.getGeneralRoomForRow');
                 Route::get('showSchedule', [App\Http\Controllers\Admin\RowController::class, 'showSchedule'])->name('admin.showSchedule');
+                Route::get('tet', [App\Http\Controllers\Admin\RowController::class, 'tet'])->name('admin.tet');
                 Route::post('add_category_to_schedule', [App\Http\Controllers\Admin\ScheduleController::class, 'addCategoryToSchedule'])->name(name: 'admin.addCategoryToSchedule');
                 Route::post('delete_category_from_schedule', [App\Http\Controllers\Admin\ScheduleController::class, 'deleteCategoryFromSchedule'])->name(name: 'admin.deleteCategoryFromSchedule');
 
