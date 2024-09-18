@@ -108,6 +108,41 @@
 </style>
 <!-- my style -->
 <link href="{{url('assets')}}/AE_style/AE_style.css" rel="stylesheet" type="text/css" />
+@if(\Illuminate\Support\Facades\App::getLocale() == 'ar')
+    <style>
+        @media (min-width: 768px) {
+            #page-topbar {
+                right: 220px;
+            }
+            .main-content {
+                margin-right: 220px !important;
+            }
+        }
+        .footer {
+            right: 220px !important;
+        }
+        .page-content {
+            padding: calc(70px + 1.5rem) calc(1rem / 1.5) 50px calc(1.5rem / 2);
+        }
+    </style>
+@else
+    <style>
+        @media (min-width: 768px) {
+            #page-topbar {
+                left: 220px;
+            }
+            .main-content {
+                margin-left: 220px !important;
+            }
+        }
+        .footer {
+            left: 220px !important;
+        }
+        .page-content {
+            padding: calc(70px + 1.5rem) calc(1.5rem / 2) 50px calc(1rem / 1.5);
+        }
+    </style>
+@endif
 @yield('css')
 {{--include loader css--}}
 @include('layouts.loader.loaderCss')

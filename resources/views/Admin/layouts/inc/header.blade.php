@@ -50,43 +50,43 @@
                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                                                 <li class="nav-item">
-                                                    <a class="nav-link  header-link-ya active" href="#" data-open="edara">
+                                                    <a class="nav-link  header-link-ya active" href="#" data-routeName="{{route('rows.index')}}" data-open="edara">
                                                         <!-- <i class="fa-solid fa-desktop"></i> -->
                                                         الادارة
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link header-link-ya " href="#" data-open="tahfez">
+                                                    <a class="nav-link header-link-ya " href="#" data-routeName="{{route('rows.index')}}" data-open="tahfez">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         التحفيز
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link header-link-ya " href="#" data-open="taqeem">
+                                                    <a class="nav-link header-link-ya " href="#" data-routeName="{{route('rows.index')}}" data-open="taqeem">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         تقييم المعلمين
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link header-link-ya " href="#" data-open="late">
+                                                    <a class="nav-link header-link-ya " href="#" data-routeName="{{route('rows.index')}}" data-open="late">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         الغياب والتاخير
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link header-link-ya " href="#" data-open="notification-send">
+                                                    <a class="nav-link header-link-ya " href="#" data-routeName="{{route('rows.index')}}" data-open="notification-send">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         الرسائل والاشعارات
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link header-link-ya " href="#" data-open="academic">
+                                                    <a class="nav-link header-link-ya " href="#" data-routeName="{{route('rows.index')}}" data-open="academic">
                                                         <!-- <i class="fa-solid fa-pen"></i> -->
                                                         اكاديمي
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link header-link-ya " href="#" data-open="reports">
+                                                    <a class="nav-link header-link-ya " href="#" data-routeName="{{route('rows.index')}}" data-open="reports">
                                                     <!-- <i class="fa-solid fa-pen"></i> -->
                                                         التقارير
                                                     </a>
@@ -132,7 +132,7 @@
                         <img src="{{url('assets')}}/dashboard/images/flags/us.svg" alt="Header Language" height="20"
                              class="rounded">
                         @else
-                            <img src="{{url('assets')}}/dashboard/images/flags/qatar.webp" alt="Header Language" height="20"
+                            <img src="{{url('assets')}}/dashboard/images/flags/flag.svg" alt="Header Language" height="20"
                                  class="rounded">
                         @endif
                     </button>
@@ -158,7 +158,7 @@
                                     <a class="dropdown-item notify-item language py-2" hreflang="{{ $localeCode }}"
                                        href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
 
-                                        <img src="{{url('assets')}}/dashboard/images/flags/qatar.webp" alt="user-image"
+                                        <img src="{{url('assets')}}/dashboard/images/flags/flag.svg" alt="user-image"
                                              class="me-2 rounded" height="18">
                                         <span class="align-middle"> {{trans('frontend.arb')}} </span>
                                     </a>

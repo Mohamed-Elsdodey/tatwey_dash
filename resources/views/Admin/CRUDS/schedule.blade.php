@@ -11,19 +11,20 @@
 
         .timetable {
             display: grid;
-            grid-template-areas: ". week" "time content";
+            /* بدلت أماكن time و week عشان الأيام تبقى عمودية والحصص أفقية */
+            grid-template-areas: ". time" "week content";
             grid-template-columns: 10%;
             grid-template-rows: 60px;
             width: 100%;
             height: 100vh;
+            border-right: 1px solid #d3d3d3;
         }
 
         .week-names {
             grid-area: week;
             display: grid;
-            border-right: 1px solid var(--porcelain);
-            /* بدل 5 هنا حط عدد ايام العمل يا سدودو وطبعا متجربهاش من غير ما تعدل في ال HTML */
-            grid-template-columns: repeat(5, 1fr);
+            /* الأيام هنا تبقى عمودية بدل أفقية */
+            grid-template-rows: repeat(5, 1fr); /* بدل 5 هنا حط عدد أيام العمل يا سدودو */
             text-transform: uppercase;
             font-size: 14px;
             font-weight: bold;
@@ -31,6 +32,7 @@
 
         .week-names > div {
             display: flex;
+            border-top: 1px solid #d3d3d3;
             align-items: center;
             justify-content: center;
             width: 100%;
@@ -41,15 +43,16 @@
         .time-interval {
             grid-area: time;
             display: grid;
-            /* بدل 8 هنا حط عدد الحصص يا سدودو */
-            grid-template-rows: repeat(8, 1fr);
+            /* بدل 5 هنا خلى الحصص أفقية */
+            grid-template-columns: repeat(8, 1fr); /* خلت الحصص تمشي أفقيا */
             font-size: 14px;
         }
 
         .time-interval > div {
+            border-right: 1px solid #d3d3d3;
             display: flex;
             font-weight: bold;
-            border-left: 1px solid var(--porcelain);
+            border-bottom: 1px solid var(--porcelain);
             align-items: center;
             justify-content: center;
             width: 100%;
@@ -60,11 +63,11 @@
         .content {
             grid-area: content;
             display: grid;
-            border-bottom: 1px solid var(--porcelain);
-            /* بدل 8 هنا حط عدد الحصص يا سدودو وطبعا متجربهاش من غير ما تعدل في ال HTML */
-            grid-template-rows: repeat(8, 1fr);
-            /* بدل 5 هنا حط عدد ايام العمل يا سدودو وطبعا متجربهاش من غير ما تعدل في ال HTML */
-            grid-template-columns: repeat(5, 1fr);
+            border-left: 1px solid var(--porcelain);
+            /* بدل 5 هنا خلى الحصص أفقية */
+            grid-template-columns: repeat(8, 1fr); /* الحصص تمشي أفقيا */
+            /* بدل 5 هنا خلى الأيام عمودية */
+            grid-template-rows: repeat(5, 1fr); /* الأيام تمشي عموديا */
         }
 
         .content > div {
