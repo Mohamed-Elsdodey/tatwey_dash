@@ -5,7 +5,7 @@
     --bg:#042954;
     --bg-Dark:#051f3e;
     --text :#3f7afc;
-    --hover:#84C785;
+    --hover:#4ea74f;
     --main-bg:#f0f1f3;
     --w:#ffffff;
     --sub-text:#828282;
@@ -672,7 +672,7 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
 }
 
 .semi-dark{
-    background-color: #292e32 !important;
+    background-color: #36383a !important;
 }
 .semi-dark .user-name-text{
     color: #e3e3e3;
@@ -681,7 +681,7 @@ body[dir="ltr"] .AE_dropdown .AE_dropdown-menu li a{
     color: #e3e3e3 !important;
 }
 .dark-side{
-    background-color: #242424 !important;
+    background-color: #3e3e3e !important;
     border: 0 !important;
 }
 .dark-side .nav-link{

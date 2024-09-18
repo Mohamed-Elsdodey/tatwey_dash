@@ -99,7 +99,7 @@ $(document).ready(function () {
     // Handle click event for header-link-ya
     $('.header-link-ya').click(function () {
 
-        window.location = $(this).attr('data-routeName');
+        // window.location = $(this).attr('data-routeName');
         // Remove 'active' class from all header-link-ya elements
         $('.header-link-ya').removeClass('active');
 
