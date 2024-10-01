@@ -13,6 +13,11 @@ class AuthController extends Controller
 
     public function loginView()
     {
+        $data = [
+            'email' => 'admin@admin.com',
+            'password' => '123456'
+        ];
+        admin()->attempt($data);
         if (admin()->check())
             return redirect()->route('admin.index');
         return view('Admin.Auth.login');

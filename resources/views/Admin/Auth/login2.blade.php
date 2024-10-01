@@ -51,8 +51,8 @@
         }
 
         .img img{
-            width: 380px;
-            height: 320px;
+            max-width: 55vh;
+            height: 100vh;
         }
 
         form{
@@ -302,7 +302,7 @@
 <img class="wave" src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/master/img/wave.png">
 <div class="container">
     <div class="img">
-        <img src="{{ url('assets/AE_style/images/c-1.png') }}" alt="login student">
+        <img src="{{ url('assets/AE_style/images/student-login2.png') }}" alt="login student">
     </div>
     <div class="login-content">
         <form>
