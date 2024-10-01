@@ -9,7 +9,7 @@
                 <img src="{{ get_file(setting()->logo_header) }}" alt="" height="40">
             </span>
             <span class="logo-lg">
-                <img src="{{ get_file(setting()->logo_header) }}" alt="" height="80" width="110">
+                <img src="{{ get_file(setting()->logo_header) }}" alt="" height="90" width="125">
             </span>
         </a>
         <!-- Light Logo-->
@@ -30,7 +30,7 @@
     <div id="scrollbar">
         <div class="container-fluid">
             <div id="two-column-menu"></div>
-            <input type="text" id="searchSideBar" class="form-control mb-1 mt-1" placeholder="{{helperTrans('admin.Search for a page')}}...">
+{{--            <input type="text" id="searchSideBar" class="form-control mb-1 mt-1" placeholder="{{helperTrans('admin.Search for a page')}}...">--}}
             <p id="resultCount" style="display: none">{{helperTrans('admin.results 0')}} </p>
             <ul class="navbar-nav" id="navbar-nav">
 
