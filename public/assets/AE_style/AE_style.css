@@ -716,6 +716,11 @@ ul li, ol li{
     border-radius: 1px;
 }
 
+td img{
+    max-height: 50px !important;
+    max-width: 50px !important;
+}
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #282828;

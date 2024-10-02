@@ -22,5 +22,9 @@ class HomeController extends Controller
         return view('Web.about.index');
     }
 
+    public function landing(){
+        return view('landing.index');
+    }
+
 
 }

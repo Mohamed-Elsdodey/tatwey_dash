@@ -27,6 +27,7 @@ Route::group(
 
 
     Route::get('/',[App\Http\Controllers\Web\HomeController::class,'index'])->name('frontend.index');
+    Route::get('/landing',[App\Http\Controllers\Web\HomeController::class,'landing']);
 
 
 
