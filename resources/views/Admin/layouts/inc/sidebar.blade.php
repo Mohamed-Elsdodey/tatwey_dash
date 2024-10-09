@@ -4,21 +4,21 @@
     <!-- LOGO -->
     <div class="navbar-brand-box">
         <!-- Dark Logo-->
-        <a href="{{ route('admin.index') }}" class="logo logo-dark">
+        <a href="{{ route('admin.index') }}" class="logo logo-dark mt-2">
             <span class="logo-sm">
-                <img src="{{ get_file(setting()->logo_header) }}" alt="" height="40">
+                <img src="{{asset('assets/AE_style/images/newlogo.png')}}" alt="" height="40">
             </span>
             <span class="logo-lg">
-                <img src="{{ get_file(setting()->logo_header) }}" alt="" height="90" width="125">
+                <img src="{{asset('assets/AE_style/images/newlogo.png')}}" alt="" height="90" width="125">
             </span>
         </a>
         <!-- Light Logo-->
-        <a href="{{ route('admin.index') }}" class="logo logo-light">
+        <a href="{{ route('admin.index') }}" class="logo logo-light mt-2">
             <span class="logo-sm">
-                <img src="{{ get_file(setting()->logo_header) }}" alt="" height="40">
+                <img src="{{asset('assets/AE_style/images/newlogo.png')}}" alt="" height="40">
             </span>
             <span class="logo-lg">
-                <img src="{{ get_file(setting()->logo_header) }}" alt="" height="80" width="110">
+                <img src="{{asset('assets/AE_style/images/newlogo.png')}}" alt="" height="80" width="110">
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover"

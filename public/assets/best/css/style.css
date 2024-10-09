@@ -18,14 +18,10 @@
 :root h6 {
   font-size: 14px;
 }
+@font-face{font-family:montserrat;src:url("../../AE_style/font/ArbFONTS-Montserrat-Arabic-Regular.ttf")}
 
-@font-face {
-  font-family: IBMPlexSansArabic;
-  font-display: swap;
-  src: url(../webfonts/IBMPlexSansArabic-Regular.ttf);
-}
 * {
-  font-family: "IBMPlexSansArabic", Sans-serif;
+  font-family: "montserrat", Sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -124,40 +120,51 @@ img {
   flex-wrap: wrap;
 }
 .mainSlider .swiper-slide .mainCards .topCard {
-  min-width: 150px;
-  padding: 24px;
-  padding-top: 32px;
-  box-shadow: var(--BigShadow);
-  background-color: var(--whiteColor);
-  position: relative;
-  border-radius: 16px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+    width: 180px; /* Adjust the width for better card sizing */
+    padding: 20px;
+    padding-top: 30px;
+    box-shadow: var(--BigShadow);
+    background-color: var(--whiteColor);
+    position: relative;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
 }
+
+.mainSlider .swiper-slide .mainCards .topCard:hover {
+    transform: scale(1.05); /* Add a hover effect for better user interaction */
+}
+
 .mainSlider .swiper-slide .mainCards .topCard .num {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  background-color: #e0840a;
-  aspect-ratio: 1/1;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(-50%, -50%);
-  border-radius: 100px;
-  color: var(--whiteColor);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #e0840a;
+    aspect-ratio: 1/1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    color: var(--whiteColor);
+    font-weight: bold;
 }
+
 .mainSlider .swiper-slide .mainCards .topCard .count {
-  font-weight: normal;
+    font-weight: normal;
+    font-size: 16px; /* Slightly increase font size for better readability */
 }
+
 .mainSlider .swiper-slide .studentsCards {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex;
+    gap: 16px; /* Increase gap for better spacing */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px 0; /* Add padding between rows */
 }
 .mainSlider .swiper-slide .studentsCards .col {
   display: flex;
