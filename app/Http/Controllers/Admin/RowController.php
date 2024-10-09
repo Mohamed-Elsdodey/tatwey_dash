@@ -202,7 +202,7 @@ class RowController extends Controller
     }
     public function tet()
     {
-        return view('Admin.CRUDS.report.index');
+        return view('Admin.CRUDS.beststudent');
     }
 
 }
