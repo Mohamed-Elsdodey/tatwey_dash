@@ -386,7 +386,7 @@ img {
     z-index: 2;
     width: 265px;
     right: 75%;
-    top: -20%;
+    top: -11%;
     mix-blend-mode: multiply;
 }
 .float-cele3{
@@ -394,7 +394,23 @@ img {
     z-index: 2;
     width: 265px;
     right: 62%;
-    top: -20%;
+    top: -11%;
+    mix-blend-mode: multiply;
+}
+.float-cele4{
+    position: absolute;
+    z-index: 2;
+    width: 265px;
+    right: 9%;
+    top: -11%;
+    mix-blend-mode: multiply;
+}
+.float-cele5{
+    position: absolute;
+    z-index: 2;
+    width: 265px;
+    right: 24%;
+    top: -11%;
     mix-blend-mode: multiply;
 }
 .back-home{
