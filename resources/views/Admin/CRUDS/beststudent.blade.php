@@ -24,6 +24,8 @@
     <img src="{{asset('assets/best/img/1.gif')}}" class="float-cele">
     <img src="{{asset('assets/best/img/2.gif')}}" class="float-cele2">
     <img src="{{asset('assets/best/img/2.gif')}}" class="float-cele3">
+    <img src="{{asset('assets/best/img/2.gif')}}" class="float-cele4">
+    <img src="{{asset('assets/best/img/2.gif')}}" class="float-cele5">
     <div class="back-home">
         <a href="{{route('admin.index')}}">
             <img src="{{asset('assets/AE_style/images/newlogo.png')}}">
